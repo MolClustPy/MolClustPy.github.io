@@ -1,7 +1,7 @@
 ---
 title: Examples
 layout: default
-permalink: contact
+permalink: examples
 ---
 
 # Contact
