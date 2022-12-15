@@ -5,7 +5,7 @@ layout: default
 permalink: installation
 ---
 
-# Specifications
+# Installation
 
 There are three orthogonal and complementary visual languages defined in SBGN: Process Description (PD), Entity Relationship (ER), and Activity Flow (AF). They can be seen as three alternative projections of the underlying, more complex biological information.
 
