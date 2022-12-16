@@ -1,0 +1,30 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+#gallery_table table, table tr, table tr th, table tr td {
+  text-align: center;
+  background: none;
+  border: none;
+}
+
+img.gallery_thumbnail {
+  width: 190px;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
+
+p.gallery_image_title {
+  text-align: center;
+  font-size: x-small;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+th.gallery_column {
+  width: 210px;
+  text-align: center;
+  padding: 6px; 
+}
