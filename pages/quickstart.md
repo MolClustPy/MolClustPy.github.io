@@ -15,9 +15,9 @@ Welcome to the ClusterAnalyzer Package tutorial!
 
 -clusteranalyzer
     
-    * we will be using individual modules from the clusteranalyzer package for the code
+* we will be using individual modules from the clusteranalyzer package for the code
 
-.. code-block:: shell
+.. 
 
     import sys
     import bionetgen
