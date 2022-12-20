@@ -6,7 +6,7 @@ permalink: usage
 
 Cluster Analyzer
 
-```python
+```ruby
 # You will need the 'bionetgen' python package, aprart from the standard ones like numpy, matplotlib and pandas. 
 from nfsim_data_analyzer import *
 from DataViz_NFsim import * 
