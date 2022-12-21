@@ -78,13 +78,13 @@ plotTimeCourse(outpath, obsList=[7,8])
 
 
     
-![png](output_7_0.png)
+![png](images/demo/TCOuput1)
     
 
 
 
     
-![png](output_7_1.png)
+![png](images/demo/TCOutput2)
     
 
 
