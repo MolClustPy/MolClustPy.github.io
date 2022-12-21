@@ -4,7 +4,7 @@ layout: default
 permalink: quickstart
 ---
 
-# Cell Cluster Analyzer
+# Quickstart Guide
 
 Welcome to the ClusterAnalyzer Package tutorial!
 
