@@ -20,7 +20,7 @@ from MultiRun_BNG import *
 # check_import: https://napuzba.com/check-if-module-exists/
 ```
 
-### Run multiple NFsim simulations of a bionetgen model & analyze the data![neph_nck_nwasp_model.png](attachment:neph_nck_nwasp_model.png)
+### Run multiple NFsim simulations of a bionetgen model & analyze the data![neph_nck_nwasp_model.png](images/Neph_nck_nwasp.png)
 Example Model: A three-component system. Nephrin has three phosphotyrosin (pY) residues which can bind to Src Homology 2 domain (Sh2) of Nck molecule. Nck also contains three Src Homology 3 or SH3 domains (S) which interact with proline rich motif or PRM (p) of NWASP molecules. Two classes of binding rules are enough to define these reactions.  
 
 
