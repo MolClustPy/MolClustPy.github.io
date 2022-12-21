@@ -106,13 +106,13 @@ plotClusterDist(outpath, sizeRange=[1,4,12])
 
 
     
-![png](output_9_0.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.41.55 AM.png)
     
 
 
 
     
-![png](output_9_1.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.42.14 AM.png)
     
 
 
@@ -126,13 +126,13 @@ plotBoundFraction(outpath)
 
 
     
-![png](output_10_0.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.42.35 AM.png)
     
 
 
 
     
-![png](output_10_1.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.43.59 AM.png)
     
 
 
@@ -158,13 +158,13 @@ plotMolecularDistribution(outpath, molecules=['Nck'], width=0.5, alpha=0.8)
 
 
     
-![png](output_12_0.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.44.42 AM.png)
     
 
 
 
     
-![png](output_12_1.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.45.08 AM.png)
     
 
 
@@ -180,13 +180,13 @@ plotClusterComposition(outpath, specialClusters=[2, 4, 10], width=0.15, alpha=0.
 
 
     
-![png](output_13_0.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.45.52 AM.png)
     
 
 
 
     
-![png](output_13_1.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.46.13 AM.png)
     
 
 
@@ -201,6 +201,6 @@ plotBondCounts(outpath, molecules=['Nck'])
 
 
     
-![png](output_14_0.png)
+![png](images/demo/Screen Shot 2022-12-21 at 10.46.31 AM.png)
     
 
