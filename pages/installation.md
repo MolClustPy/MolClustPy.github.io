@@ -6,6 +6,10 @@ permalink: installation
 
 # Installation
 
+## General Prerequisites
+  - Python 2.7 or 3.1 (or higher) 
+  - pip or pip3
+
 ## Required Packages
 
 You will need to download these python packages:
