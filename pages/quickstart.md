@@ -8,6 +8,9 @@ permalink: quickstart
 
 Welcome to the ClusterAnalyzer Package tutorial!
 
+# Jupyter Notebook
+
+Jupyter Notebook is the easiest way to use this package. The package comes with the set of sample BNGL files in the folder ..... See the [How to Use page] for details on how to write BNGL code, how to access data in different folders, etc.
 
 ### First start by importing the necessary packages:
 
