@@ -10,7 +10,30 @@ Welcome to the ClusterAnalyzer Package tutorial!
 
 # Jupyter Notebook
 
-Jupyter Notebook is the easiest way to use this package. The package comes with the set of sample BNGL files in the folder ..... See the [How to Use page] for details on how to write BNGL code, how to access data in different folders, etc.
+The suggested python distribution to use is the Jupyter Notebook IDE 
+
+There are two ways to install the Jupyter Notebook
+    - in the [Anaconda python distribution](https://www.anaconda.com/products/distribution)
+    - [Install](https://jupyter.org/install) Jupyter Notebook
+
+## To Open Jupyter Notebook
+
+From Anaconda
+    - Install the Jupyter Notebook IDE on the Navigator page
+    - Click Launch
+    - The notebook interface will appear in a new browser window or tab.
+From Terminal
+    - Click on spotlight, type terminal to open a terminal window.
+    - Enter the startup folder by typing cd /some_folder_name.
+    - Type jupyter notebook to launch the Jupyter Notebook App The notebook interface will appear in a new browser window or tab.
+    
+
+## Jupyter Notebook Instructions
+
+Each cell can be ran individually using the run button
+The cells have to be run in order. 
+
+## Example of Code in Jupyter Notebook
 
 ### First start by importing the necessary packages:
 
@@ -71,3 +94,5 @@ Example:
 
 Example:
 ![png](images/demo/Screen Shot 2022-12-21 at 10.44.42 AM.png)
+
+## Check the [How to Use Page](usage.md) to see details on changing code
