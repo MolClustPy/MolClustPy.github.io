@@ -38,4 +38,4 @@ After clicking on the <b>Run</b> button (the top of the browser window) the cont
     # bngl file (BioNetGen model) 
     bng_file = './test_dataset/neph_nck_nwasp_10_30_15uM.bngl'
 ```
-* Go to [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md) for detailed description of each and every line in the Jupyter notebook. *
+<b> Go to [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md) for detailed description of each and every line in the Jupyter notebook. </b>
