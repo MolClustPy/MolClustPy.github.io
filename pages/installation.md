@@ -27,7 +27,7 @@ pip install matplotlib
 pip install pandas
 pip install bionetgen
 ```
-While the first three packages may be already installed on yor machine, the bionetgen package is an essential package for the analyzer and most likely needs to be installed.
+While the first three packages are likely to be already installed on yor machine with Anaconda, the [pyBioNetGen](https://pybionetgen.readthedocs.io/en/latest/) package is an essential package for the analyzer and most likely needs to be installed.
 
 ## Install ClusterAnalyzer 
 
