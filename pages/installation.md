@@ -10,7 +10,7 @@ permalink: installation
   - Python 2.7 or 3.1 (or higher) 
   - pip or pip3
 
-The best way to install Python is to download [Anaconda distribution](https://www.anaconda.com/products/distribution) available for all operation systems. It has [Jupyter notebook](https://jupyter.org/) pre-installed that has a convenient way to run MolClustPy. It also must install pip. To check your installation, type in the terminal (command prompt on Windows):
+The best way to install Python is to download [Anaconda distribution](https://www.anaconda.com/products/distribution) available for all operation systems. It has [Jupyter notebook](https://jupyter.org/) pre-installed that has a convenient way to run MolClustPy. Anaconda install also should install pip. To check your installation, type in the terminal (command prompt on Windows):
 ```python
 python -i
 pip -V
