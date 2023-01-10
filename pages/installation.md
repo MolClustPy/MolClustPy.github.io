@@ -10,20 +10,22 @@ permalink: installation
   - Python 2.7 or 3.1 (or higher) 
   - pip or pip3
 
-The best way to install Python is to download [Anaconda distribution](https://www.anaconda.com/products/distribution) available for all operation systems. It has [Jupiter notebook](https://jupyter.org/) pre-installed that has a convenient way to run MolClustPy. It also must install pip. To check your installation, type in the terminal (command prompt on Windows):
+The best way to install Python is to download [Anaconda distribution](https://www.anaconda.com/products/distribution) available for all operation systems. It has [Jupyter notebook](https://jupyter.org/) pre-installed that has a convenient way to run MolClustPy. It also must install pip. To check your installation, type in the terminal (command prompt on Windows):
 ```python
-% python -i
-% pip -V
+python -i
+pip -V
+jupyter --version 
 ```
+In case Jupyter is missing and you prefer to use it (recommended for beginners), download it from [https://jupyter.org/install](https://jupyter.org/install).
 
 ## Required Packages
 
 You will need to install these Python packages:
 ```python
-% pip install numpy
-% pip install matplotlib
-% pip install pandas
-% pip install bionetgen
+pip install numpy
+pip install matplotlib
+pip install pandas
+pip install bionetgen
 ```
 While the first three packages may be already installed on yor machine, the bionetgen package is an essential package for the analyzer and most likely needs to be installed.
 
