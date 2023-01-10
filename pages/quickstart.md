@@ -29,6 +29,13 @@ from MultiRun_BNG import *
 ```
 - After clicking on the <b>Run</b> button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on <b>Run</b> to operform the next actions.
 
+- You may get an error .... due to version control issues of pip bionetgen install. If it is the case, then stop jupyter notebook, uninstall and install bionetgen again, and launch new jupyter session.
+```python
+pip uninstall bionetgen
+pip install bionetgen
+jupyter notebook &
+```
+
 - After clicking one cell after another, you can obtain all results of the file.
 
 - The path to the input BNGL file is defined in the second cell <font color = blue>In [2] :</font>. One can open this file in the editor, vary some numbers and see how the results change.
