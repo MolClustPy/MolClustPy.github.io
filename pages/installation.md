@@ -20,16 +20,12 @@ In case Jupyter is missing and you prefer to use it (recommended for beginners),
 
 ## Required Packages
 
-You will need to install these Python packages:
+You will need to install the [pyBioNetGen](https://pybionetgen.readthedocs.io/en/latest/) package:
 ```python
-pip install numpy
-pip install matplotlib
-pip install pandas
 pip install bionetgen
 ```
-While the first three packages are likely to be already installed on yor machine with Anaconda, the [pyBioNetGen](https://pybionetgen.readthedocs.io/en/latest/) package is an essential package for the analyzer and most likely needs to be installed.
 
-## Install ClusterAnalyzer 
+## Install MolClustPy 
 
 ### Option 1: Source folder: 
 
@@ -45,9 +41,9 @@ clone https://github.com/IndyCodeLab/clusteranalyzer.git
 ### Option 3: Pip Install
 
 ```python
-pip install -i https://test.pypi.org/simple/ clusteranalyzer==0.0.14
+pip install -i https://test.pypi.org/simple/clusteranalyzer==0.0.14
 ```
  
- After download/install, navigate to the directory/folder where clusteranalyzer is installed and follow steps at [Start Guide](/quickstart)
+ After download/install, navigate to the directory/folder where MolClustPy is installed and follow steps at [Start Guide](/quickstart)
  
 
