@@ -27,20 +27,20 @@ You will need to install these Python packages:
 ```
 While the first three packages may be already installed on yor machine, the bionetgen package is an essential package for the analyzer and most likely needs to be installed.
 
-### Download Method 1: Zip folder
+## Install ClusterAnalyzer 
 
-Load zip file with the code from [https://github.com/IndyCodeLab/....zip](https://github.com/IndyCodeLab/....zip), unzip.
+### Option 1: Zip folder: 
 
-### Download Method 2: Github
+Load zip file with the code by clicking on [https://github.com/IndyCodeLab/....zip](https://github.com/IndyCodeLab/....zip), unzip.
+
+### Option 2: Github
 
 Git users may clone the repository using 
 ```python
 clone https://github.com/IndyCodeLab/clusteranalyzer.git
 ```
 
-### Download Method 3: Pip Install
-
-Using this pip install, you will be able to download the cluster analyzer package.
+### Option 3: Pip Install
 
 ```python
 pip install -i https://test.pypi.org/simple/ clusteranalyzer==0.0.14
