@@ -31,9 +31,9 @@ While the first three packages are likely to be already installed on yor machine
 
 ## Install ClusterAnalyzer 
 
-### Option 1: Zip folder: 
+### Option 1: Source folder: 
 
-Load zip file with the code by clicking on [https://github.com/IndyCodeLab/....zip](https://github.com/IndyCodeLab/....zip), unzip.
+Load zip file with the code by clicking on [MolClustPy.zip](downloads/MolClustPy.zip), unzip.
 
 ### Option 2: Github
 
