@@ -15,19 +15,19 @@ jupyter notebook &
 ```
 Note that the notebook interface will appear in a new browser window or tab that has address http://localhost:8888/tree.
 
-1. You will see several files with extension <b>.ipynb</b>: [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md), [EGFR.ipynb](EGFR.md) and [TLBR.ipynb](TLBR.md). Each of them corresponds to the description of cluster formation given in [BioNetGen](http://bionetgen.org) files located in <tt>test_datasets</tt> folder within clusteranalyzer directory. These files have the same name with extension <tt>.bngl</tt>. 
+1. You will see several files with extension <b>.ipynb</b>: [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md), [EGFR.ipynb](EGFR.md) and [TLBR.ipynb](TLBR.md). Each of them corresponds to the description of cluster formation given in [BioNetGen](http://bionetgen.org) files located in <tt>test_datasets</tt> folder within clusteranalyzer directory. These files have the same name with extension <b>.bngl</b>. 
 
 2. The most commented model is [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md). We will use it in the tutorial given at [How to use](usage.md) page
 It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation. 
 
-3. Here we give some general remarks on how to run models with Jupyter notebook. Put your mouse into any cell. e.g. <font color = blue>In [1] :</font>
+3. Here we give some general remarks on how to run models with Jupyter notebook. Put your mouse into the first cell. e.g. where you see <font color = blue>In [1] :</font>
 
 ```python
 from NFsim_data_analyzer import *
 from DataViz_NFsim import * 
 from MultiRun_BNG import * 
 ```
-    After clicking on run the content of the cell will be executed, and you can click on the next cell to do the next actions.
+After clicking on the <b>Run</b> button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on <b>Run</b> to operform the next actions.
 
 4. After clicking one cell after another, you can obtain all results of the file.
 
