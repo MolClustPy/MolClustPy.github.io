@@ -6,10 +6,6 @@ permalink: quickstart
 
 # Quickstart Guide
 
-Welcome to the ClusterAnalyzer Package tutorial!
-
-## Jupyter Notebook
-
 Non-experts in Python are recommended to use the [Jupyter Notebook](https://jupyter.org/). 
 
 To launch it from Terminal, navigate to the installation directory/folder and type
@@ -27,16 +23,18 @@ It will provide step-by-step guide to modifying inputs and analyzing outputs of 
 3. Here we give some general remarks on how to run models with Jupyter notebook. Put your mouse into any cell. e.g. <font color = blue>In [1] :</font>
 
 ```python
-<font color = green>from</font> NFsim_data_analyzer <font color = green>import</font> *
-<font color = green>from</font> DataViz_NFsim <font color = green>import</font> * 
-<font color = green>from</font> MultiRun_BNG <font color = green>import</font> * 
+from NFsim_data_analyzer import *
+from DataViz_NFsim import * 
+from MultiRun_BNG import * 
 ```
     After clicking on run the content of the cell will be executed, and you can click on the next cell to do the next actions.
 
-4. The path to the input BNGL file is defined in the second cell <font color = blue>In [2] :</font>. One can open this file in the editor, vary some numbers and see how the results change.
+4. After clicking one cell after another, you can obtain all results of the file.
+
+6. The path to the input BNGL file is defined in the second cell <font color = blue>In [2] :</font>. One can open this file in the editor, vary some numbers and see how the results change.
+
 ```python
     
     # bngl file (BioNetGen model) 
     bng_file = './test_dataset/neph_nck_nwasp_10_30_15uM.bngl'
 ```
-5. After clicking one cell after another, you can obtain all results of the file.
