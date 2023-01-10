@@ -27,7 +27,7 @@ from NFsim_data_analyzer import *
 from DataViz_NFsim import * 
 from MultiRun_BNG import * 
 ```
-After clicking on the <b>Run</b> button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on <b>Run</b> to operform the next actions.
+- After clicking on the <b>Run</b> button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on <b>Run</b> to operform the next actions.
 
 - After clicking one cell after another, you can obtain all results of the file.
 
