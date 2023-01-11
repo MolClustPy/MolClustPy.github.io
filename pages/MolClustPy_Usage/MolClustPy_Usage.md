@@ -11,12 +11,12 @@ AttributeError: module bionetgen has no attribute 'bngmodel
 simply do pip uninstall bionetgen, and then pip install bionetgen
 
 
-
+### Import Package
 ```python
 from MolClustPy import * 
 ```
 
-
+### Assign BNGL File
 ```python
 # Location of bngl file in your local machine
 bng_file = '/Users/indynalagandla/Downloads/nfsimPy_11Nov/test_dataset/single_concentration_file/neph_nck_nwasp_10_30_15uM.bngl'
