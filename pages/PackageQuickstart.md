@@ -28,7 +28,7 @@ Here is an example pathway of the location of the package:
 ```python
 /Users/name/opt/anaconda3/lib/python3.9/site-packages/clusteranalyzer
 ```
-You can use the "pip list" command in terminal to ensure that the package has installed and you have the latest version(currently 0.0.16)
+You can use the "pip list" command in terminal to ensure that the package has installed and you have the latest version
 
 ```python
 pip uninstall bionetgen
