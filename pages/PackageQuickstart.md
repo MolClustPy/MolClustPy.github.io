@@ -21,8 +21,6 @@ The package will be installed into your device in the site-packages area
 The package contains:
 - three primarily used .py files: MultiRun_BNG.py, NFsim_data_analyzer.py, and DataViz_Nfsim.py. These are the files that will be imported into your code when you are using the package. Each of the files contains the functions that make up the MolClustPy package. The package contains other .py files to supplement these files.
 
-- several files with extension <b>.ipynb</b>: [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md), [EGFR.ipynb](EGFR.md) and [TLBR.ipynb](TLBR.md). Each of them corresponds to the description of cluster formation given in [BioNetGen](http://bionetgen.org) files located in <tt>test_datasets</tt> folder within clusteranalyzer directory. These files have the same name with extension <b>.bngl</b>. 
-
 Here is an example pathway of the location of the package:
 
 ```python
