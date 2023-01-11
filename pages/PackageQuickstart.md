@@ -30,6 +30,8 @@ Here is an example pathway of the location of the package:
 ```
 You can use the "pip list" command in terminal to ensure that the package has installed and you have the latest version
 
+An error can occur involving Bionetgen due to version control issues when running the package so it is best to pip uninstall bionetgen then pip install bionetgen in order to prevent the error from occuring.
+
 ```python
 pip uninstall bionetgen
 pip install bionetgen
