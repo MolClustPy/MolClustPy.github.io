@@ -107,7 +107,7 @@ plotClusterDist(outpath, sizeRange=[1,5,15])
     
 
 
-#### 2B: Number of bonds per molecule
+### 2B: Number of bonds per molecule
 ```python
 plotBondsPerMolecule(outpath)
 ```
