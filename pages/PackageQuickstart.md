@@ -13,7 +13,7 @@ This package contains all the code and functionality of the MolClustPy in a pack
 You can use this command in the Terminal to install the latest version of the package onto your device:
 
 ```python
-pip install -i https://test.pypi.org/simple/ clusteranalyzer==0.0.16
+pip install MolClustPy
 ```
 
 The package will be installed into your device in the site-packages area
@@ -26,7 +26,7 @@ The package contains:
 Here is an example pathway of the location of the package:
 
 ```python
-/Users/name/opt/anaconda3/lib/python3.9/site-packages/clusteranalyzer
+/Users/name/opt/anaconda3/lib/python3.9/site-packages/MolClustPy
 ```
 You can use the "pip list" command in terminal to ensure that the package has installed and you have the latest version
 
@@ -49,15 +49,15 @@ from MultiRun_BNG import *
 
 You should do this:
 ```python
-from clusteranalyzer.NFsim_data_analyzer import *
-from clusteranalyzer.DataViz_NFsim import * 
-from clusteranalyzer.MultiRun_BNG import * 
+from MolClustPy.NFsim_data_analyzer import *
+from MolClustPy.DataViz_NFsim import * 
+from MolClustPy.MultiRun_BNG import * 
 ```
 
 You will also have to assign a bngl file of your own and its path when coding.
 ```python  
     # bngl file (BioNetGen model) 
-    bng_file = '/Users/indynalagandla/Downloads/nfsimPy_11Nov/test_dataset/single_concentration_file/neph_nck_nwasp_10_30_15uM.bngl'
+    bng_file = '/Users/name/Downloads/nfsimPy/test_dataset/single_concentration_file/neph_nck_nwasp_10_30_15uM.bngl'
 ```
 You can follow the tutorial given at [How to use](usage.md) page and make these changes as you go.
 It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation while using the package. 
