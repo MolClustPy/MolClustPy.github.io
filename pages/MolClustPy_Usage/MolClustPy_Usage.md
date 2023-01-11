@@ -47,7 +47,7 @@ print()
     
 
 
-### analyze data across multiple trials
+### Analyze data across multiple trials
 ```python
 outpath = simObj.getOutPath()
 molecules, numSite, counts, _ = simObj.getMolecules()
