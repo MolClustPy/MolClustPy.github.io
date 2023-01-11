@@ -118,7 +118,7 @@ plotBondsPerMolecule(outpath)
     
 
 
-### 2C: Bound fraction distribution
+### 2C: Bond fraction distribution
 ```python
 plotBoundFraction(outpath)
 ```
@@ -129,7 +129,7 @@ plotBoundFraction(outpath)
     
 
 
-### 3A. Average composition of indivual clusters. 
+### 3A. Average composition of individual clusters. 
 ```python
 # Default is all the clusters present in the system. As before, adjust width and transparency (alpha) for visual clarity.
 plotClusterComposition(outpath, specialClusters=[], width=0.15, alpha=0.5)
@@ -141,7 +141,7 @@ plotClusterComposition(outpath, specialClusters=[], width=0.15, alpha=0.5)
     
 
 
-### You can look at the composition of a set of clusters (specialClusters) also
+### You can look at the composition of a set of clusters (specialClusters)
 ```python
 plotClusterComposition(outpath, specialClusters=[2, 4, 10], width=0.15, alpha=0.7)
 
