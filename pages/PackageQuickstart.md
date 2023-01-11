@@ -62,7 +62,7 @@ You will also have to assign a bngl file of your own and its path when coding.
 You can follow the tutorial given at [How to use](usage.md) page and make these changes as you go.
 It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation while using the package. 
 
-<b> You can check [MolClustPy Jupyter Notebook DEMO](DEMO_MolClustPy.md) for an example of how the package is used. </b>
+<b> You can check [MolClustPy Jupyter Notebook DEMO](DEMO_MolClustPy/DEMO_MolClustPy.md) for an example of how the package is used. </b>
 
 ### Common Error Identification
 - An error can occur involving Bionetgen due to version control issues when running the package so it is best to pip uninstall bionetgen then pip install bionetgen in order to prevent the error from occuring.
