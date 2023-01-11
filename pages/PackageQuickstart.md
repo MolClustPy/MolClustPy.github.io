@@ -49,9 +49,7 @@ from MultiRun_BNG import *
 
 You should do this:
 ```python
-from MolClustPy.NFsim_data_analyzer import *
-from MolClustPy.DataViz_NFsim import * 
-from MolClustPy.MultiRun_BNG import * 
+from MolClustPy import *
 ```
 
 You will also have to assign a bngl file of your own and its path when coding.
