@@ -22,9 +22,8 @@ from MolClustPy import *
 bng_file = '/Users/indynalagandla/Downloads/nfsimPy_11Nov/test_dataset/single_concentration_file/neph_nck_nwasp_10_30_15uM.bngl'
 ```
 
-
+### Initialization of the Simulation Object
 ```python
-# Initialization of the Simulation Object
 simObj = BNG_multiTrials(bng_file, t_end=0.02, steps=20, numRuns=20)
 print(simObj)
 simObj.runTrials(delSim=False)
@@ -48,9 +47,8 @@ print()
     
 
 
-
+### analyze data across multiple trials
 ```python
-# analyze data across multiple trials
 outpath = simObj.getOutPath()
 molecules, numSite, counts, _ = simObj.getMolecules()
 nfsObj = NFSim_output_analyzer(outpath)
@@ -72,9 +70,8 @@ nfsObj.process_speciesfiles(molecules, counts, numSite)
     Processing species_files : [****************************************] 100%
 
 
-
+### indexList for observables
 ```python
-# indexList for observables
 plotTimeCourse(outpath, obsList=[2,4,6])
 plotTimeCourse(outpath, obsList=[7,8])
 ```
@@ -91,9 +88,8 @@ plotTimeCourse(outpath, obsList=[7,8])
     
 
 
-
+### 2A: Cluster size distribution (ACO: Average Cluster Occupancy)
 ```python
-# 2A: Cluster size distribution (ACO: Average Cluster Occupancy)
 plotClusterDist(outpath)
 # Binned distribution by providing cluster size ranges
 plotClusterDist(outpath, sizeRange=[1,5,15])
@@ -111,9 +107,8 @@ plotClusterDist(outpath, sizeRange=[1,5,15])
     
 
 
-
+#### 2B: Number of bonds per molecule
 ```python
-# 2B: Number of bonds per molecule
 plotBondsPerMolecule(outpath)
 ```
 
@@ -123,9 +118,8 @@ plotBondsPerMolecule(outpath)
     
 
 
-
+### 2C: Bound fraction distribution
 ```python
-# 2C: Bound fraction distribution
 plotBoundFraction(outpath)
 ```
 
@@ -135,9 +129,8 @@ plotBoundFraction(outpath)
     
 
 
-
+### 3A. Average composition of indivual clusters. 
 ```python
-# 3A. Average composition of indivual clusters. 
 # Default is all the clusters present in the system. As before, adjust width and transparency (alpha) for visual clarity.
 plotClusterComposition(outpath, specialClusters=[], width=0.15, alpha=0.5)
 ```
@@ -148,9 +141,8 @@ plotClusterComposition(outpath, specialClusters=[], width=0.15, alpha=0.5)
     
 
 
-
+### You can look at the composition of a set of clusters (specialClusters) also
 ```python
-# You can look at the composition of a set of clusters (specialClusters) also
 plotClusterComposition(outpath, specialClusters=[2, 4, 10], width=0.15, alpha=0.7)
 
 ```
@@ -161,9 +153,8 @@ plotClusterComposition(outpath, specialClusters=[2, 4, 10], width=0.15, alpha=0.
     
 
 
-
+### 3B. Bondcount distribution of each molecular type 
 ```python
-# 3B. Bondcount distribution of each molecular type 
 # plotBondCounts(outpath, molecules=molecules) # Reading molecules from previous block
 # You may provide a subset of molecules also
 plotBondCounts(outpath, molecules=['Nck'])
@@ -176,6 +167,3 @@ plotBondCounts(outpath, molecules=['Nck'])
 
 
 
-```python
-
-```
