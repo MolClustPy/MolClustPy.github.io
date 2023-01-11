@@ -19,7 +19,7 @@ pip install -i https://test.pypi.org/simple/ clusteranalyzer==0.0.16
 The package will be installed into your device in the site-packages area
 
 The package contains:
-- three primarily used .py files: MultiRun_BNG.py, NFsim_data_analyzer.py, and DataViz_Nfsim.py. Each of these files will be imported into the Python IDE that you are using in order to use the functions of the MolClustPy Package
+- three primarily used .py files: MultiRun_BNG.py, NFsim_data_analyzer.py, and DataViz_Nfsim.py. These are the files that will be imported into your code when you are using the package. Each of the files contains the functions that make up the MolClustPy package. The package contains other .py files to supplement these files.
 
 - several files with extension <b>.ipynb</b>: [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md), [EGFR.ipynb](EGFR.md) and [TLBR.ipynb](TLBR.md). Each of them corresponds to the description of cluster formation given in [BioNetGen](http://bionetgen.org) files located in <tt>test_datasets</tt> folder within clusteranalyzer directory. These files have the same name with extension <b>.bngl</b>. 
 
@@ -29,10 +29,6 @@ Here is an example pathway of the location of the package:
 /Users/name/opt/anaconda3/lib/python3.9/site-packages/clusteranalyzer
 ```
 You can use the "pip list" command in terminal to ensure that the package has installed and you have the latest version(currently 0.0.16)
-
-An error can occur involving Bionetgen due to version control issues when running the package so it is best to pip uninstall bionetgen then pip install bionetgen in order to prevent the error from occuring.
-
-AttributeError: module 'bionetgen' has no attribute 'bngmodel'
 
 ```python
 pip uninstall bionetgen
@@ -67,3 +63,8 @@ You can follow the tutorial given at [How to use](usage.md) page and make these 
 It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation while using the package. 
 
 <b> You can check [MolClustPy Jupyter Notebook DEMO](DEMO_MolClustPy.md) for an example of how the package is used. </b>
+
+### Common Error Identification
+- An error can occur involving Bionetgen due to version control issues when running the package so it is best to pip uninstall bionetgen then pip install bionetgen in order to prevent the error from occuring.
+
+AttributeError: module 'bionetgen' has no attribute 'bngmodel'
