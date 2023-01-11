@@ -7,9 +7,9 @@ This Notebook will be an example of using the MolClustPy package.
 
 ```python
 # You will need the 'bionetgen' python package, aprart from the standard ones like numpy, matplotlib and pandas. 
-from clusteranalyzer.NFsim_data_analyzer import *
-from clusteranalyzer.DataViz_NFsim import * 
-from clusteranalyzer.MultiRun_BNG import * 
+from MolClustPy.NFsim_data_analyzer import *
+from MolClustPy.DataViz_NFsim import * 
+from MolClustPy.MultiRun_BNG import * 
 
 # check_import: https://napuzba.com/check-if-module-exists/
 ```
