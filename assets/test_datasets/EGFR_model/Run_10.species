@@ -1,0 +1,29 @@
+# nfsim generated species list for system: 'Run_10'
+# warning! this feature is not yet fully tested! 
+Grb2(SH2!1,SH3!2).Shc(PTB!3,Y317~pY!1).Sos(dom!2).egfr(l!4,r!5,Y1068~Y,Y1148~pY!3).egf(r!4).egfr(l!6,r!5,Y1068~Y,Y1148~Y).egf(r!6)  8
+Grb2(SH2!1,SH3!2).Shc(PTB!3,Y317~pY!1).Sos(dom!2).egfr(l!4,r!5,Y1068~Y,Y1148~pY!3).egf(r!4).egfr(l!6,r!5,Y1068~pY!7,Y1148~pY!8).egf(r!6).Grb2(SH2!7,SH3!9).Shc(PTB!8,Y317~pY).Sos(dom!9)  1
+Grb2(SH2!1,SH3!2).Shc(PTB!3,Y317~pY!1).Sos(dom!2).egfr(l!4,r!5,Y1068~Y,Y1148~pY!3).egf(r!4).egfr(l!6,r!5,Y1068~pY,Y1148~Y).egf(r!6)  1
+Grb2(SH2!1,SH3!2).Shc(PTB!3,Y317~pY!1).Sos(dom!2).egfr(l!4,r!5,Y1068~pY!6,Y1148~pY!3).egf(r!4).egfr(l!7,r!5,Y1068~Y,Y1148~Y).Grb2(SH2!6,SH3!8).egf(r!7).Sos(dom!8)  3
+Grb2(SH2!1,SH3!2).Shc(PTB!3,Y317~pY!1).Sos(dom!2).egfr(l!4,r!5,Y1068~pY!6,Y1148~pY!3).egf(r!4).egfr(l!7,r!5,Y1068~pY!8,Y1148~Y).Grb2(SH2!6,SH3!9).egf(r!7).Grb2(SH2!8,SH3!10).Sos(dom!9).Sos(dom!10)  1
+Grb2(SH2!1,SH3!2).Shc(PTB!3,Y317~pY!1).Sos(dom!2).egfr(l!4,r!5,Y1068~pY!6,Y1148~pY!3).egf(r!4).egfr(l!7,r!5,Y1068~pY!8,Y1148~pY!9).Grb2(SH2!6,SH3!10).egf(r!7).Grb2(SH2!8,SH3!11).Shc(PTB!9,Y317~pY).Sos(dom!10).Sos(dom!11)  1
+Grb2(SH2!1,SH3!2).Shc(PTB!3,Y317~pY!1).Sos(dom!2).egfr(l!4,r!5,Y1068~pY,Y1148~pY!3).egf(r!4).egfr(l!6,r!5,Y1068~Y,Y1148~Y).egf(r!6)  1
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~Y).Sos(dom!2).egf(r!3).egfr(l!5,r!4,Y1068~Y,Y1148~Y).egf(r!5)  10
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~Y).Sos(dom!2).egf(r!3).egfr(l!5,r!4,Y1068~Y,Y1148~pY!6).egf(r!5).Shc(PTB!6,Y317~pY!7).Grb2(SH2!7,SH3!8).Sos(dom!8)  2
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~Y).Sos(dom!2).egf(r!3).egfr(l!5,r!4,Y1068~Y,Y1148~pY).egf(r!5)  2
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~Y).Sos(dom!2).egf(r!3).egfr(l!5,r!4,Y1068~pY!6,Y1148~pY!7).egf(r!5).Grb2(SH2!6,SH3!8).Shc(PTB!7,Y317~pY).Sos(dom!8)  2
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~Y).Sos(dom!2).egf(r!3).egfr(l!5,r!4,Y1068~pY!6,Y1148~pY).egf(r!5).Grb2(SH2!6,SH3!7).Sos(dom!7)  1
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~Y).Sos(dom!2).egf(r!3).egfr(l!5,r!4,Y1068~pY,Y1148~Y).egf(r!5)  2
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~pY!5).Sos(dom!2).egf(r!3).egfr(l!6,r!4,Y1068~Y,Y1148~Y).Shc(PTB!5,Y317~pY!7).egf(r!6).Grb2(SH2!7,SH3!8).Sos(dom!8)  1
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~pY!5).Sos(dom!2).egf(r!3).egfr(l!6,r!4,Y1068~Y,Y1148~pY!7).Shc(PTB!5,Y317~pY).egf(r!6).Shc(PTB!7,Y317~pY)  1
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~pY!5).Sos(dom!2).egf(r!3).egfr(l!6,r!4,Y1068~pY!7,Y1148~Y).Shc(PTB!5,Y317~pY!8).egf(r!6).Grb2(SH2!7,SH3!9).Grb2(SH2!8,SH3!10).Sos(dom!9).Sos(dom!10)  1
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~pY).Sos(dom!2).egf(r!3).egfr(l!5,r!4,Y1068~Y,Y1148~Y).egf(r!5)  3
+Grb2(SH2!1,SH3!2).egfr(l!3,r!4,Y1068~pY!1,Y1148~pY).Sos(dom!2).egf(r!3).egfr(l!5,r!4,Y1068~pY!6,Y1148~Y).egf(r!5).Grb2(SH2!6,SH3!7).Sos(dom!7)  1
+Shc(PTB!1,Y317~pY).egfr(l!2,r!3,Y1068~Y,Y1148~pY!1).egf(r!2).egfr(l!4,r!3,Y1068~Y,Y1148~Y).egf(r!4)  1
+Sos(dom)  3
+egf(r!1).egfr(l!1,r!2,Y1068~Y,Y1148~Y).egfr(l!3,r!2,Y1068~Y,Y1148~Y).egf(r!3)  9
+egf(r!1).egfr(l!1,r!2,Y1068~Y,Y1148~Y).egfr(l!3,r!2,Y1068~pY,Y1148~pY).egf(r!3)  1
+egf(r!1).egfr(l!1,r!2,Y1068~Y,Y1148~pY).egfr(l!3,r!2,Y1068~Y,Y1148~Y).egf(r!3)  3
+egf(r!1).egfr(l!1,r!2,Y1068~pY,Y1148~Y).egfr(l!3,r!2,Y1068~Y,Y1148~Y).egf(r!3)  2
+egf(r!1).egfr(l!1,r!2,Y1068~pY,Y1148~Y).egfr(l!3,r!2,Y1068~pY,Y1148~Y).egf(r!3)  1
+egf(r!1).egfr(l!1,r,Y1068~Y,Y1148~Y)  2
+egfr(l,r,Y1068~Y,Y1148~Y)  60
