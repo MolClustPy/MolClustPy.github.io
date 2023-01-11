@@ -36,7 +36,7 @@ pip install bionetgen
 ```
 ### Using the MolClustPy Package
 
-Using the package is the same as using the code downloaded through the other methods except for a few changes 
+Using the package is the same as using the code downloaded through the other methods(zip or github clone) but you will need to make a few changes.
 
 The main difference will be in the imports:
 
