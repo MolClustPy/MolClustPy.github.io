@@ -69,14 +69,14 @@ MolClustPy is a Python package that can be run as a command line or as a Jupyter
 The package will analyze multiple runs and display envelope (min-max) for timecourses of observables:
 <table>
   <tr>
-    <td><img src="images/obs1.png" width=500></td>
-    <td><img src="images/obs2.png" width=500></td>
+    <td><img src="images/obs1.png" width=300></td>
+    <td><img src="images/obs2.png" width=300></td>
   </tr>
  </table>
 It will plot average occupancy (fraction of total molecules in clusters of different sizes, and the the average cluster size among all clusters weighted by number of molecules), as well as binning of clusters by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
 <table>
   <tr>
-    <td><img src="images/aco_high.png" width=500></td>
-    <td><img src="images/size_ranges_high.png" width=500></td>
+    <td><img src="images/aco_high.png" width=300></td>
+    <td><img src="images/size_ranges_high.png" width=300></td>
   </tr>
  </table>
