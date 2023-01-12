@@ -27,10 +27,13 @@ Example .py files that can be ran in Python:
 - [TLBR_model.py](../assets/test_datasets/TLBR_model.py) 
  
 
-Here is an example pathway of the location of the package:
+To find the pathway of the location of the package:
+Open terminal, then open Python
 
 ```python
-/Users/name/opt/anaconda3/lib/python3.9/site-packages/MolClustPy
+>>> import MolClustPy;
+>>> print(MolClustPy.__file__);
+/usr/local/lib/python3.10/site-packages/MolClustPy/__init__.py
 ```
 
 ### Using the MolClustPy Package
