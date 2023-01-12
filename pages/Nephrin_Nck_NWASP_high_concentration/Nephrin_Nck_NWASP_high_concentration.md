@@ -1,3 +1,8 @@
+---
+title: Nephrin_Nck_NWASP_high_concentration
+layout: default
+permalink: Nephrin_Nck_NWASP_high_concentration
+---
 # Higher concentrations of Nephrin, Nck and NWASP produce large clusters, an indication of phase transition.
 
 
