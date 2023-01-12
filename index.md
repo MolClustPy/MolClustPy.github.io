@@ -29,20 +29,26 @@ Here on the left we show visaulization of molecules in VCell notations (Blinov e
 A set of rules then specifies the interactions among molecules.
 <table>
   <tr>
-    <td><img src="images/rule1.png" width=450></td>
-    <td>  <img src="images/rule2.png" width=400></td>
+    <td><img src="images/rule1.png" width=470></td>
+    <td><img src="images/rule2.png" width=420></td>
   </tr>
  </table>
 
-Here we show two example of rules: on the left is binding of 
+Here we show two example of rules: on the left is binding of Nck to NWasp via interaction of s1 site with p1. On the right is binding of Nephrin to Nck via interaction of Y1 site of Nephrin with SH2 domain of Nck. The full set of rules consists of 18 rules of the first type (6x3) and 3 rules of the second type (1x3). Below are the same rules written in BNGL notations.
 ```python
-Nsk(SH2,s1,s2,s3)
-Nephrin(Y1,Y2,Y3)
-NWasp(p1,p2,p3,p4,p5,p6)
+Nck(s1) + NWASP(p1) <-> Nck(S1!1).NWASP(p1!1)		kon_23, koff_23
+Nephrin(pY1) + Nck(Sh2) <-> Nephrin(pY1!1).Nck(Sh2!1)		kon_12, koff_12
 ```
 
-Finally, the essential part of model specification is the observables - the pattern that specify properties of molecular complexes we'd like to track. 
+Finally, the essential part of model specification is the observables - the pattern that specify properties of molecular complexes we'd like to track. Below are three observables - free Nephrin (no site is bound), fully bound Nephrin (all sites are bound), and a comples of Nick and NWasp with undefined connectivity. Underneath are the same observables written in BNGL notations.
 
+<table>
+  <tr>
+    <td><img src="images/nep-f.png" width=200></td>
+    <td><img src="images/nep-b.png" width=200></td>
+    <td><img src="images/nw.png" width=400></td>
+  </tr>
+ </table>
 
 ## Output: visual characterization of molecular clusters composition
 
