@@ -1,7 +1,7 @@
 ---
-title: Quickstart
+title: Quickstart Jupyter Notebook
 layout: default
-permalink: quickstart
+permalink: quickstartJupyter
 ---
 
 # Quickstart Guide
