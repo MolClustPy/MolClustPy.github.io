@@ -1,7 +1,7 @@
 ---
-title: Quickstart
+title: Quickstart Pip Install
 layout: default
-permalink: PackageQuickstart
+permalink: quickstartpip
 ---
 
 # Quickstart Guide for the MolClustPy Python package
