@@ -46,7 +46,7 @@ Finally, the essential part of model specification is the observables - the patt
   <tr>
     <td><img src="images/nep-f.png" width=200></td>
     <td><img src="images/nep-b.png" width=200></td>
-    <td><img src="images/nw.png" width=400></td>
+    <td><img src="images/nw.png" width=450></td>
   </tr>
  </table>
  ```code
