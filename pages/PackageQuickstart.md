@@ -1,7 +1,7 @@
 ---
 title: Quickstart
 layout: default
-permalink: quickstart
+permalink: PackageQuickstart
 ---
 
 # Quickstart Guide for the MolClustPy Python package
