@@ -41,7 +41,7 @@ Open terminal, then type python
 
 First choose and navigate to the directory that you want to house the files that you are working with. 
 
-Use cd to go into directories and .. to go out
+Use "cd" to go into directories and ".." to go out
 
 ![png](../images/cdDocs.png)
 
