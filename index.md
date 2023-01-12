@@ -30,7 +30,7 @@ A set of rules then specifies the interactions among molecules.
 <table>
   <tr>
     <td><img src="images/rule1.png" width=450></td>
-    <td>  <img src="images/rule2.png" width=350></td>
+    <td>  <img src="images/rule2.png" width=400></td>
   </tr>
  </table>
 
