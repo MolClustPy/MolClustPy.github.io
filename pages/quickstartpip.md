@@ -62,7 +62,7 @@ It will provide step-by-step guide to modifying inputs and analyzing outputs of 
 <b> You can check [MolClustPy Jupyter Notebook DEMO](MolClustPy_Usage/MolClustPy_Usage.md) for an example of how the package is used. </b>
 ### Running Pip in Command Line
 
-First choose the directory that you want to house the files that you are working with. 
+First choose and navigate to the directory that you want to house the files that you are working with. 
 
 ![png](../images/cdDocs.png)
 
@@ -77,7 +77,7 @@ What to put in the .py file
 ![png](../images/FileContents.png)
 
 Once you have created the Python file and filled it, open terminal and navigate to the directory that the file is housed in
-Once you have navigated to the directory, type "python3 example.py" This will open and run the file.
+Once you have navigated to the directory, type "python3 _name_.py" (_name_ is whatever you named your file) This will open and run the file.
 
 ![png](../images/callFile.png)
 
