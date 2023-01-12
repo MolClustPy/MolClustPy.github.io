@@ -1,7 +1,5 @@
 ---
-title: MolClustPy
 layout: default
-permalink: index
 ---
 
 # MolClustPy:  Python Package to analyze com-position of multivalent biomolecular clusters 
@@ -12,7 +10,8 @@ Interactions among multi-valent molecules are known to result in polymeric struc
 
 Such systems require a special kind of modeling technique called Rule based modeling (RBM) (Blinov et al., 2004). In this approach, a molecule is modelled as an object with multiple sites.  
 
-![image](images/molecules.png)
+![image](images/molecules.png | width = 600)
+
 
 Here 
 
