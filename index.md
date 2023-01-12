@@ -12,7 +12,7 @@ Interactions among multi-valent molecules are known to result in polymeric struc
 
 Such systems require a special kind of modeling technique called Rule based modeling (RBM) (Blinov et al., 2004). In this approach, a molecule is modelled as an object with multiple sites.  
 
-![png](images/molecules.png| width=400)
+<img src="images/molecules.png" width=400>
 
 
 Here Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binfing sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6.
