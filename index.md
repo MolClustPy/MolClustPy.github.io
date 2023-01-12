@@ -92,15 +92,15 @@ MolClustPy will analyze and plot the frequency of molecules in clusters with a g
   </tr>
  </table>
  
- ### Molecule-specific properties of clusters
+### Molecule-specific properties of clusters
   
  Apart from the cluster size distribution, it might be useful to know the composition of the clusters with respect to individual molecular types. On the left we plot the relative fraction of each molecular type within a given cluster size. Note that the sum of all fractions for a given molecular types should be equal to one. For large cluster size range, it might be of interest to inspect composition of a list of special clusters - either of specific sizes (2,4,10 - middle plot), or within the range (580-587, right plot).
  
  <table>
   <tr>
-    <td><img src="images/comp_clust1.png" width=200></td>
-    <td><img src="images/comp_clust2.png" width=200></td>
-    <td><img src="images/comp_clust3.png" width=200></td>
+    <td><img src="images/clust_comp1.png" width=200></td>
+    <td><img src="images/clust_comp2.png" width=200></td>
+    <td><img src="images/clust_comp3.png" width=200></td>
   </tr>
  </table>
 
@@ -111,3 +111,6 @@ Finally, MolClustPy can plot bonds distribution for a specific molecular type, e
   </tr>
  </table>
 
+ ### Text data for individual processing
+ 
+MolClustPy will Apart from the cluster size distribution, it might be useful to know the composition of the clusters with respect to individual molecular types. On the left we plot the relative fraction of each molecular type within a given cluster size. Note that the sum of all fractions for a given molecular types should be equal to one. For large cluster size range, it might be of interest to inspect composition of a list of special clusters - either of specific sizes (2,4,10 - middle plot), or within the range (580-587, right plot).
