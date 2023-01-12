@@ -15,7 +15,9 @@ Such systems require a special kind of modeling technique called Rule based mode
 ![png](images/molecules.png)
 
 
-Here 
+Here Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binfing sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6.
+
+In BNGL 
 
 A set of rules then specifies the interactions among molecules.
 
