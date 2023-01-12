@@ -21,10 +21,10 @@ The package will be installed into your device in the site-packages area
 The package contains:
 - three primarily used .py files: MultiRun_BNG.py, NFsim_data_analyzer.py, and DataViz_Nfsim.py. These are the files that will be imported into your code when you are using the package. Each of the files contains the functions that make up the MolClustPy package. The package contains other .py files to supplement these files.
 
-The package does not contain the notebooks so you can access them here: 
-- [Tutorial_neph_nck_nwasp.ipynb](../notebooks/Tutorial_Nephrin_Nck_NWASP.ipynb)
-- [EGFR.ipynb](../notebooks/EGFR_model.ipynb)
-- [TLBR.ipynb](../notebooks/TLBR_model.ipynb) 
+Example .py files that can be ran in Python: 
+- [Nephrin_Nck_NWASP_high_concentration.py](../assets/test_datasets/Nephrin_Nck_NWASP_high_concentration.py)
+- [EGFR_model.py](../assets/test_datasets/EGFR_model.py)
+- [TLBR_model.py](../assets/test_datasets/TLBR_model.py) 
  
 
 Here is an example pathway of the location of the package:
