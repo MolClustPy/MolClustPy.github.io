@@ -51,6 +51,9 @@ To create a file you can go in the terminal and use the vi command to create a n
 
 What to put in the .py file
 
+This is where you will import the package and set the path to the bngl file that you want to run 
+The bngl path should be you own local path
+
 ![png](../images/FileContents.png)
 
 Once you have created the Python file and filled it, open terminal and navigate to the directory that the file is housed in
