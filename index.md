@@ -64,6 +64,19 @@ NWASP(p1!1,p2,p3,p4,p5!2,p6!3).Nck(S1!1,S2,S3!4,Sh2).Nck(S1!2,S2!5,S3,Sh2).Nck(S
 
 ## Output: visual characterization of molecular clusters composition
 
-MolClustPy is a Python package that can be run as a command line or as a Jupyter notebook. It simulates the BNGL file several (user-defined) number of times and outputs visualization of simulation results.
-
-
+MolClustPy is a Python package that can be run as a command line or as a Jupyter notebook. It simulates the BNGL file several (user-defined) number of times and outputs visualization of simulation results. Below the model specified in './test_dataset/Nephrin_Nck_NWASP_high_concentration.bngl' file is simulated <b>numRuns</b> times for 0.4 seconds (<b>t_end*steps</b>).
+<img src="images/cluster.png">
+The package will analyze multiple runs and display envelope (min-max) for timecourses of observables:
+<table>
+  <tr>
+    <td><img src="images/obs1.png" width=500></td>
+    <td><img src="images/obs2.png" width=500></td>
+  </tr>
+ </table>
+It will plot average occupancy (fraction of total molecules in clusters of different sizes, and the the average cluster size among all clusters weighted by number of molecules), as well as binning of clusters by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
+<table>
+  <tr>
+    <td><img src="images/aco_high.png" width=500></td>
+    <td><img src="images/size_ranges_high.png" width=500></td>
+  </tr>
+ </table>
