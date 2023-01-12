@@ -6,11 +6,11 @@ layout: default
 
 ## Python package to analyze composition of multivalent biomolecular clusters 
 
-Interactions among multi-valent molecules are known to result in polymeric structures - large molecular clusters consisting of hundreds to thousands of connected molecules. When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions (Mayer et al, 2009), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFSim (Network-Free stochastic simulator, ) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types. 
+Interactions among multi-valent molecules are known to result in polymeric structures - large molecular clusters consisting of hundreds to thousands of connected molecules. When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions ([Mayer et al, 2009](https://jbiol.biomedcentral.com/articles/10.1186/jbiol185)), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFsim (Network-Free stochastic simulator, ) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types. 
 
 ## Input: rule-based model specification in BioNetGen Language (BNGL) format
 
-Such systems require a special kind of modeling technique called Rule based modeling (RBM) (Blinov et al., 2004). In this approach, a molecule is modelled as an object with multiple sites.  
+Such systems require a special kind of modeling technique called Rule based modeling (RBM) ([Blinov et al., 2004](https://academic.oup.com/bioinformatics/article/20/17/3289/186821)). In this approach, a molecule is modelled as an object with multiple sites.  
 
 <table>
   <tr>
@@ -23,7 +23,7 @@ NWasp(p1,p2,p3,p4,p5,p6)
   </tr>
  </table>
 
-Here on the left we show visaulization of molecules in VCell notations (Schaff et al., 2016): Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binfing sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6. On the right we show how these molecules are defined in BNGL notations.
+Here on the left we show visaulization of molecules in VCell notations ([Schaff et al., 2016](https://academic.oup.com/bioinformatics/article/32/18/2880/1744348)): Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binfing sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6. On the right we show how these molecules are defined in BNGL notations.
 
 
 A set of rules then specifies the interactions among molecules.
@@ -64,7 +64,7 @@ NWASP(p1!1,p2,p3,p4,p5!2,p6!3).Nck(S1!1,S2,S3!4,Sh2).Nck(S1!2,S2!5,S3,Sh2)...
 
 ## Output: statistical characterization of molecular clusters composition
 
-MolClustPy is a Python package that can be run as a command line or as a Jupyter notebook. It simulates the BNGL file several (user-defined) number of times and outputs visualization of simulation results. Below the model specified in './test_dataset/Nephrin_Nck_NWASP_high_concentration.bngl' file is simulated <b>numRuns</b> times for 0.4 seconds (<b>t_end*steps</b>).
+MolClustPy is a Python package that can be run as a command line or as a Jupyter notebook. It simulates the BNGL file several (user-defined) number of times and outputs visualization of simulation results. Below the model specified in './test_dataset/Nephrin_Nck_NWASP_high_concentration.bngl' file is simulated <b>numRuns</b> times for 20 milliseconds (<b>t_end</b>).
 <img src="images/start.png" width=500>
 
 The package will analyze multiple runs and display envelope (min-max) for timecourses of observables:
