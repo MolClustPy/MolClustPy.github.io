@@ -37,6 +37,27 @@ Open terminal, then open Python
 /usr/local/lib/python3.10/site-packages/MolClustPy/__init__.py
 ```
 
+### Running Pip in Command Line
+
+First choose and navigate to the directory that you want to house the files that you are working with. 
+
+![png](../images/cdDocs.png)
+
+Then you will create or obtain a .py file and place it in this directory
+.py files have been provided
+To create a file you can go in the terminal and use the vi command to create a new file.
+
+![png](../images/vi.png)
+
+What to put in the .py file
+
+![png](../images/FileContents.png)
+
+Once you have created the Python file and filled it, open terminal and navigate to the directory that the file is housed in
+Once you have navigated to the directory, type "python3 _name_.py" (_name_ is whatever you named your file) This will open and run the file.
+
+![png](../images/callFile.png)
+
 ### Using the MolClustPy Package
 
 Using the package is the same as using the code downloaded through the other methods(zip or github clone) but you will need to make a few changes.
@@ -64,26 +85,6 @@ You can follow the tutorial given at [How to use](usage.md) page and make these 
 It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation while using the package. 
 
 <b> You can check [MolClustPy Jupyter Notebook DEMO](MolClustPy_Usage/MolClustPy_Usage.md) for an example of how the package is used. </b>
-### Running Pip in Command Line
-
-First choose and navigate to the directory that you want to house the files that you are working with. 
-
-![png](../images/cdDocs.png)
-
-Then you will create or obtain a .py file and place it in this directory
-.py files have been provided
-To create a file you can go in the terminal and use the vi command to create a new file.
-
-![png](../images/vi.png)
-
-What to put in the .py file
-
-![png](../images/FileContents.png)
-
-Once you have created the Python file and filled it, open terminal and navigate to the directory that the file is housed in
-Once you have navigated to the directory, type "python3 _name_.py" (_name_ is whatever you named your file) This will open and run the file.
-
-![png](../images/callFile.png)
 
 ### Common Error Identification
 - An error can occur involving Bionetgen due to version control issues when running the package so it is best to pip uninstall bionetgen then pip install bionetgen in order to prevent the error from occuring.
