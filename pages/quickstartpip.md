@@ -64,22 +64,22 @@ It will provide step-by-step guide to modifying inputs and analyzing outputs of 
 
 First choose the directory that you want to house the files that you are working with. 
 
-![png]()
+![png](../images/cdDocs.png)
 
 Then you will create or obtain a .py file and place it in this directory
 .py files have been provided
 To create a file you can go in the terminal and use the vi command to create a new file.
 
-![png]()
+![png](../images/vi.png)
 
 What to put in the .py file
 
-![png]()
+![png](../images/FileContents.png)
 
 Once you have created the Python file and filled it, open terminal and navigate to the directory that the file is housed in
 Once you have navigated to the directory, type "python3 example.py" This will open and run the file.
 
-![png]()
+![png](../images/callFile.png)
 
 ### Common Error Identification
 - An error can occur involving Bionetgen due to version control issues when running the package so it is best to pip uninstall bionetgen then pip install bionetgen in order to prevent the error from occuring.
