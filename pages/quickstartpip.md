@@ -37,7 +37,7 @@ Open terminal, then type python
 /usr/local/lib/python3.10/site-packages/MolClustPy/__init__.py
 ```
 
-### Running Pip in Command Line
+### Running Package in Command Line
 
 First choose and navigate to the directory that you want to house the files that you are working with. 
 
