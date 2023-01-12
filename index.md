@@ -12,8 +12,17 @@ Interactions among multi-valent molecules are known to result in polymeric struc
 
 Such systems require a special kind of modeling technique called Rule based modeling (RBM) (Blinov et al., 2004). In this approach, a molecule is modelled as an object with multiple sites.  
 
+<table>
+  <tr>
+    <td><img src="images/molecules.png" width=300></td>
+    <td>  ```python
+Nsk(SH2,s1,s2,s3)
+Nephrin(Y1,Y2,Y3)
+NWasp(p1,p2,p3,p4,p5,p6)
+```</td>
+  </tr>
+ </table>
 <img src="images/molecules.png" width=300>
-
 
 Here Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binfing sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6.
 
@@ -25,10 +34,14 @@ NWasp(p1,p2,p3,p4,p5,p6)
 ```
 
 A set of rules then specifies the interactions among molecules.
+<table>
+  <tr>
+    <td><img src="images/rule1.png" width=250></td>
+    <td>  <img src="images/rule2.png" width=150></td>
+  </tr>
+ </table>
 
-<img src="images/rules.png" width=400>
-
-Here we show three sample rules for ....
+Here we show two example of rules
 
 Finally, the essential part of model specification is the observables - the pattern that specify properties of molecular complexes we'd like to track. 
 
