@@ -14,7 +14,7 @@ Such systems require a special kind of modeling technique called Rule based mode
 
 <table>
   <tr>
-    <td><img src="images/molecules.png" width=300></td>
+    <td><img src="images/molecules.png" width=250></td>
     <td>  <tt>
 Nck(SH2,s1,s2,s3)<br>
 Nephrin(Y1,Y2,Y3)<br>
@@ -57,7 +57,7 @@ Molecules cluster_nck_nw Nck().NWASP()
 
 The results of a single NFSim simulation are 1) timecourses for all observables; and (2) the file with the final set of molecular complexes. Below is a snapshot of a rather small molecular cluster and the neginning of BNGL string describing it:
 
-<img src="images/cluster.png">
+<img src="images/cluster.png" width=800>
  ```code
 NWASP(p1!1,p2,p3,p4,p5!2,p6!3).Nck(S1!1,S2,S3!4,Sh2).Nck(S1!2,S2!5,S3,Sh2)...
 ```
@@ -65,7 +65,7 @@ NWASP(p1!1,p2,p3,p4,p5!2,p6!3).Nck(S1!1,S2,S3!4,Sh2).Nck(S1!2,S2!5,S3,Sh2)...
 ## Output: visual characterization of molecular clusters composition
 
 MolClustPy is a Python package that can be run as a command line or as a Jupyter notebook. It simulates the BNGL file several (user-defined) number of times and outputs visualization of simulation results. Below the model specified in './test_dataset/Nephrin_Nck_NWASP_high_concentration.bngl' file is simulated <b>numRuns</b> times for 0.4 seconds (<b>t_end*steps</b>).
-<img src="images/start.png">
+<img src="images/start.png" width=700>
 The package will analyze multiple runs and display envelope (min-max) for timecourses of observables:
 <table>
   <tr>
@@ -92,4 +92,22 @@ MolClustPy will analyze and plot the frequency of molecules in clusters with a g
   </tr>
  </table>
  
-  ### Molecule-specific properties of clusters
+ ### Molecule-specific properties of clusters
+  
+ Apart from the cluster size distribution, it might be useful to know the composition of the clusters with respect to individual molecular types. On the left we plot the relative fraction of each molecular type within a given cluster size. Note that the sum of all fractions for a given molecular types should be equal to one. For large cluster size range, it might be of interest to inspect composition of a list of special clusters - either of specific sizes (2,4,10 - middle plot), or within the range (580-587, right plot).
+ 
+ <table>
+  <tr>
+    <td><img src="images/comp_clust1.png" width=200></td>
+    <td><img src="images/comp_clust2.png" width=200></td>
+    <td><img src="images/comp_clust3.png" width=200></td>
+  </tr>
+ </table>
+
+Finally, MolClustPy can plot bonds distribution for a specific molecular type, e.g. fraction of molecules Nck with a given number of bonds (which can go up to 4 at most):
+<table>
+  <tr>
+    <td><img src="images/bonds_per_nck.png" width=300></td>
+  </tr>
+ </table>
+
