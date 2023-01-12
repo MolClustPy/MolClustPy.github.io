@@ -34,9 +34,9 @@ A set of rules then specifies the interactions among molecules.
   </tr>
  </table>
 
-Here we show two example of rules: on the left is binding of Nck to NWasp via interaction of s1 site with p1. On the right is binding of Nephrin to Nck via interaction of Y1 site of Nephrin with SH2 domain of Nck. The full set of rules consists of 18 rules of the first type (6x3) and 3 rules of the second type (1x3). Below are the same rules written in BNGL notations.
-```python
-Nck(s1) + NWASP(p1) <-> Nck(S1!1).NWASP(p1!1)		kon_23, koff_23
+Here we show two example of rules: on the left is binding of Nck to NWasp via interaction of s1 site with p1. On the right is binding of Nephrin to Nck via interaction of Y1 site of Nephrin with SH2 domain of Nck. The full set of rules consists of 18 rules of the first type (6x3) and 3 rules of the second type (1x3). Below are the same rules written in BNGL notations. kon and koff are on and off rate constants for mass-action kinetic law - default kinetic law in BioNetGen.
+```code
+Nck(s1) + NWASP(p1) <-> Nck(S1!1).NWASP(p1!1)		        kon_23, koff_23
 Nephrin(pY1) + Nck(Sh2) <-> Nephrin(pY1!1).Nck(Sh2!1)		kon_12, koff_12
 ```
 
@@ -49,6 +49,11 @@ Finally, the essential part of model specification is the observables - the patt
     <td><img src="images/nw.png" width=400></td>
   </tr>
  </table>
+ ```code
+Molecules free_Nephrin Nephrin(pY1,pY2,pY3)
+Molecules fully_bound_Nephrin Nephrin(pY1!+,pY2!+,pY3!+)
+Molecules cluster_nck_nw Nck().NWASP()
+```
 
 ## Output: visual characterization of molecular clusters composition
 
