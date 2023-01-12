@@ -73,10 +73,23 @@ The package will analyze multiple runs and display envelope (min-max) for timeco
     <td><img src="images/obs2.png" width=300></td>
   </tr>
  </table>
-It will plot average occupancy (fraction of total molecules in clusters of different sizes, and the the average cluster size among all clusters weighted by number of molecules), as well as binning of clusters by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
+ 
+### Global properties of clusters
+  
+MolClustPy will analyze and plot average occupancy (fraction of total molecules in clusters of different sizes, and the the average cluster size among all clusters weighted by number of molecules), as well as binning of clusters by size: here we see the fraction of molecules in small (1-10 molecules), medium (10-100 molecules) and large (more than 100 molecules) clusters.
 <table>
   <tr>
     <td><img src="images/aco_high.png" width=300></td>
     <td><img src="images/size_ranges_high.png" width=300></td>
   </tr>
  </table>
+
+MolClustPy will analyze and plot the frequency of molecules in clusters with a given number of bonds. On the left is a plot indicating that almost 48% of all molecules have very weak connectivity (one bond), while there are few molecules that serve as hubs with 3, 4, 5 or even 6 (there are NWasp molecules) bonds. An average molecule has 1.75 bonds. On the right the same cluster distribution is plotted as bound fraction of molecules per cluster size. One can see that large clusters tend to be unique (red dots) while small clusters come in a variety of compositions. What is more important, the bound fraction converges to a fixed value for larger clusters, meansing binding sites are saturated up to 42% maximum.
+<table>
+  <tr>
+    <td><img src="images/bonds_per_molecule.png" width=300></td>
+    <td><img src="images/bound_fraction.png" width=300></td>
+  </tr>
+ </table>
+ 
+  ### Molecule-specific properties of clusters
