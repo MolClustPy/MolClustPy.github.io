@@ -1,89 +1,22 @@
 ---
+title: MolClustPy
 layout: default
+permalink: index
 ---
 
-<p style="font-size:110%;">Welcome to the global portal for documentation, news, and other information about the <strong>Systems Biology Graphical Notation</strong> (SBGN) project, an effort to standardise the graphical notation used in maps of biological processes.</p>
+# MolClustPy:  Python Package to analyze com-position of multivalent biomolecular clusters 
 
-<!--## Upcoming events
-[COMBINE 2020](http://co.mbine.org/events/COMBINE_2020) will take place 6-9 October 2020 in Farmington, Connecticut, USA, hosted by the [Center for Cell Analysis and Modeling](https://health.uconn.edu/cell-analysis-modeling) at [University of Conecticut School of Medicine](https://medicine.uconn.edu/research/).-->
+Interactions among multi-valent molecules are known to result in polymeric structures - large molecular clusters consisting of hundreds to thousands of connected molecules. When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions (Mayer et al, 2009), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFSim (Network-Free stochastic simulator, ) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types. 
 
-<!--## [Open challenge](openchallenge)
-We announce the **RAS-RAF-MEK-ERK Pathway Challenge** that focuses on a specific use case while employing such design principles as modularity, reusability and composability. We invite students, young and experienced researchers to contribute. [More information...](openchallenge) -->
+# Input: rule-based model specification in BioNetGen Language (BNGL) format
 
+Such systems require a special kind of modeling technique called Rule based modeling (RBM) (Blinov et al., 2004). In this approach, a molecule is modelled as an object with multiple sites.  
 
-## Cool visualisation  
+![image](images/molecules.png)
 
-<div id="published_maps_gallery">
-  <table class="gallery_table">
-    <tr>
-      <th class="gallery_column">
-      <p class="gallery_image_title">PD map of the Drosophila cell cycle, <a href="https://dx.doi.org/10.1371/journal.pcbi.1005740">doi:10.1371/journal.pcbi.1005740</a></p>
-      <a href="/sbgn/images/published_maps/toure_drosophila.png" data-lightbox="image-gallery" data-title="Quick tips for creating effective and impactful biological pathways using the Systems Biology Graphical Notation. Touré et al., 2018, <a href='https://dx.doi.org/10.1371/journal.pcbi.1005740'>doi:10.1371/journal.pcbi.1005740</a>"><img class="gallery_thumbnail" src="/sbgn/images/published_maps/toure_drosophila-cropped.png" title="PD map of the Drosophila cell cycle"/></a>
-      </th>
-      <th class="gallery_column">
-      <p class="gallery_image_title">AF map of protein precursor processing, <a href="https://dx.doi.org/10.1002/psp4.12155">doi:10.1002/psp4.12155</a></p>
-      <a href="/sbgn/images/published_maps/lloretVillas_precursorprocessing.png" data-lightbox="image-gallery" data-title="The impact of mathematical modeling in understanding the mechanisms underlying neurodegeneration: evolving dimensions and future directions. Lloret-Villas et al., 2017, <a href='https://dx.doi.org/10.1002/psp4.12155'>doi:10.1002/psp4.12155</a>"><img class="gallery_thumbnail" src="/sbgn/images/published_maps/lloretVillas_precursorprocessing-cropped.png" title="AF map of protein precursor processing"/></a>
-      </th>
-      <th class="gallery_column">
-      <p class="gallery_image_title">ER map of CaMKII regulation by calmodulin,  <a href="https://dx.doi.org/10.1371/journal.pone.0029406">doi:10.1371/journal.pone.0029406</a></p>
-      <a href="/sbgn/images/published_maps/stefan_calmodulin.png" data-lightbox="image-gallery" data-title="Structural analysis and stochastic modelling suggest a mechanism for calmodulin trapping by CaMKII. Stefan et al., 2012, <a href='https://dx.doi.org/10.1371/journal.pone.0029406'>doi:10.1371/journal.pone.0029406</a>"><img class="gallery_thumbnail" src="/sbgn/images/published_maps/stefan_calmodulin-cropped.png" title="ER map of CaMKII regulation by calmodulin"/></a>
-      </th>
-    </tr>
-  </table>
-</div>
+Here 
+
+A set of rules then specifies the interactions among molecules.
 
 
-## Exact [meaning](https://sbgn.github.io/specifications) of all symbols
-
-<p>Below, the same biological system (Le Novère, 2015, <a href="https://dx.doi.org/10.1038/nrg3885">doi:10.1038/nrg3885</a>) 
-is shown in different languages of SBGN: Activity Flow (AF), Process Description (PD) and Entity Relationship (ER).</p>
-
-![Representations](images/learning/lenovere_representations.png)
-
-
-## Exchange and storage format [SBGN-ML](http://www.sbgn.org/LibSBGN/Exchange_Format) and software [library](http://www.sbgn.org/LibSBGN)
-
-Various tools can export an import SBGN visualization in the XML-based file format [SBGN-ML](http://www.sbgn.org/LibSBGN/Exchange_Format). 
-SBGN-ML can be processed and generated by the standard library [LibSBGN](http://www.sbgn.org/LibSBGN)
-One can compare the rendering of SBGN-ML by different software packages on 
-the [LibSBGN Render Comparison](http://libsbgn.sourceforge.net/render_comparison/) site.
-
-## [Tools and Databases](https://sbgn.github.io/software) 
-
-<p><b>Databases visualizing pathways as SBGN</b>: 
-<a href="http://www.reactome.org">Reactome*</a>, 
-<a href="http://www.pantherdb.org/pathway/">PANTHER Pathway*</a>, 
-<a href="https://www.ebi.ac.uk/biomodels/">BioModels database</a>,
-<a href="https://apps.pathwaycommons.org/pathways?uri=http%3A%2F%2Fidentifiers.org%2Freactome%2FR-HSA-6804760">Pathway Commons*</a>, 
-<a href="https://acsn.curie.fr/">Atlas of Cancer Signalling Networks*</a>, 
-<a href="https://www.ebi.ac.uk/biomodels-main/path2models">Path2Models*</a>, and <a href="https://sbgn.github.io/software#databases-and-collections-of-sbgn-maps">more</a> (*exporting SBGN-ML). 
-
-<p><b>Modeling software that draw PD diagrams</b>: 
-<a href="http://www.celldesigner.org/">CellDesigner</a>, 
-<a href="http://www.biouml.org/">BioUML</a>.
-
-<p><b>Editors that draw SBGN diagrams and export/import SBGN-ML</b>: 
-<a href="https://github.com/wiese42/krayon4sbgn">KrayonForSbgn</a> (PD), 
-<a href="http://newteditor.org/">Newt Editor</a> (PD, AF), 
-<a href="http://www.sbgn-ed.org/">Vanted/SBGN-ED</a> (PD, AF, ER), 
-  <a href="http://www.pathvisio.org/plugin/sbgn-plugin/">PathVisio</a> (PD, AF, ER), 
-  <a href="https://www.yworks.com/products/yed">yEd</a>/<a href="https://github.com/sbgn/ySBGN/releases"> & ySBGN</a> (PD, AF), and 
-  <a href="https://sbgn.github.io/software#editors">more</a>. 
-                                           
-<p><b>Tools that convert different formats to SBGN</b>:                                              
-  <a href="https://github.com/PathwayCommons/chibe">ChiBE</a> (BioPAX &rarr; SBGN),
-<a href="http://www.cogsys.cs.uni-tuebingen.de/software/KEGGtranslator/">KEGGtranslator</a>  (KEGG-ML &rarr; SBGN), 
-<a href="http://www.ebi.ac.uk/saezrodriguez/cno/cysbgn/">CySBGN</a> (SBML &rarr; SBGN), 
- <a href="https://github.com/Adrienrougny/sbgntikz">SBGNTikZ</a> (LaTex &rarr; SBGN), 
- and  <a href="https://sbgn.github.io/software#visualizers-and-formats-converters">more</a>. 
-  
-<p><b>Tools that visualize PD diagrams</b>: 
-
-<a href="http://contraintes.inria.fr/BIOCHAM/">BIOCHAM</a>, 
-<a href="http://copasi.org/">COPASI</a>, 
-<a href="http://jjj.bio.vu.nl/">JWS Online</a> 
-and <a href="https://sbgn.github.io/software#tools-using-sbgn">more</a>.
-</p>
-
-SBGN is the work of many people. It would not have been possible without the generous <a href="/sbgn/about#funding">support of multiple organizations</a> over the years, for which we are very thankful.
 
