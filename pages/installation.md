@@ -41,7 +41,7 @@ clone https://github.com/achattaraj/MolClustPy/MolClustPy.git
 ### Option 3: Pip Install
 
 ```python
-pip install -i https://test.pypi.org/simple/clusteranalyzer==0.0.14
+pip install MolClustPy
 ```
  
  After download/install, navigate to the directory/folder where MolClustPy is installed and follow steps at [Start Guide](/quickstart)
