@@ -29,7 +29,7 @@ Example .py files that can be ran in Python:
 
 To find the pathway of the location of the package:
 
-Open terminal, then open Python
+Open terminal, then type python
 
 ```python
 >>> import MolClustPy;
@@ -41,9 +41,11 @@ Open terminal, then open Python
 
 First choose and navigate to the directory that you want to house the files that you are working with. 
 
+Use cd to go into directories and .. to go out
+
 ![png](../images/cdDocs.png)
 
-Then you will create or obtain a .py file and place it in this directory
+Then you will create or obtain a .py file and place or move it into this directory
 
 .py files have been provided
 
