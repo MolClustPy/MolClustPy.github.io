@@ -1,3 +1,8 @@
+---
+title: EGFR_model
+layout: default
+permalink: EGFR_model
+---
 ### Modeling the early events in signaling by the epidermal growth factor receptor (EGFR), [Blinov 2006](https://www.sciencedirect.com/science/article/abs/pii/S0303264705001231/)
 
 
