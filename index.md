@@ -15,18 +15,15 @@ Such systems require a special kind of modeling technique called Rule based mode
 <table>
   <tr>
     <td><img src="images/molecules.png" width=300></td>
-    <td>  ```python
+    <td>  <tt>
 Nsk(SH2,s1,s2,s3)
 Nephrin(Y1,Y2,Y3)
 NWasp(p1,p2,p3,p4,p5,p6)
-```</td>
+      </tt></td>
   </tr>
  </table>
-<img src="images/molecules.png" width=300>
 
-Here Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binfing sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6.
-
-In BNGL notations these three molecules would be defined as
+Here on the left we show visaulization of molecules in VCell notations (Blinov et al., 2016): Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binfing sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6. On the right we show how these molecules are defined in BNGL notations.
 ```python
 Nsk(SH2,s1,s2,s3)
 Nephrin(Y1,Y2,Y3)
@@ -36,12 +33,17 @@ NWasp(p1,p2,p3,p4,p5,p6)
 A set of rules then specifies the interactions among molecules.
 <table>
   <tr>
-    <td><img src="images/rule1.png" width=250></td>
-    <td>  <img src="images/rule2.png" width=150></td>
+    <td><img src="images/rule1.png" width=350></td>
+    <td>  <img src="images/rule2.png" width=250></td>
   </tr>
  </table>
 
-Here we show two example of rules
+Here we show two example of rules: oin the 
+```python
+Nsk(SH2,s1,s2,s3)
+Nephrin(Y1,Y2,Y3)
+NWasp(p1,p2,p3,p4,p5,p6)
+```
 
 Finally, the essential part of model specification is the observables - the pattern that specify properties of molecular complexes we'd like to track. 
 
