@@ -59,7 +59,7 @@ The results of a single NFSim simulation are 1) timecourses for all observables;
 
 <img src="images/cluster.png">
  ```code
-NWASP(p1!1,p2,p3,p4,p5!2,p6!3).Nck(S1!1,S2,S3!4,Sh2).Nck(S1!2,S2!5,S3,Sh2).Nck(S1,S2,S3!3,Sh2).NWASP(p1!6,p2,p3,p4,p5!4,p6).NWASP(p1,p2,p3!5,p4,p5,p6).Nck(S1!6,S2!7,S3!8,Sh2!9)...
+NWASP(p1!1,p2,p3,p4,p5!2,p6!3).Nck(S1!1,S2,S3!4,Sh2).Nck(S1!2,S2!5,S3,Sh2)...
 ```
 
 ## Output: visual characterization of molecular clusters composition
