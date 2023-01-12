@@ -28,6 +28,7 @@ Example .py files that can be ran in Python:
  
 
 To find the pathway of the location of the package:
+
 Open terminal, then open Python
 
 ```python
