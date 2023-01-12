@@ -14,7 +14,7 @@ Such systems require a special kind of modeling technique called Rule based mode
 
 <table>
   <tr>
-    <td><img src="images/molecules.png" width=250></td>
+    <td><img src="images/molecules.png" width=200></td>
     <td>  <tt>
 Nck(SH2,s1,s2,s3)<br>
 Nephrin(Y1,Y2,Y3)<br>
@@ -65,12 +65,13 @@ NWASP(p1!1,p2,p3,p4,p5!2,p6!3).Nck(S1!1,S2,S3!4,Sh2).Nck(S1!2,S2!5,S3,Sh2)...
 ## Output: statistical characterization of molecular clusters composition
 
 MolClustPy is a Python package that can be run as a command line or as a Jupyter notebook. It simulates the BNGL file several (user-defined) number of times and outputs visualization of simulation results. Below the model specified in './test_dataset/Nephrin_Nck_NWASP_high_concentration.bngl' file is simulated <b>numRuns</b> times for 0.4 seconds (<b>t_end*steps</b>).
-<img src="images/start.png" width=600>
+<img src="images/start.png" width=500>
+
 The package will analyze multiple runs and display envelope (min-max) for timecourses of observables:
 <table>
   <tr>
-    <td><img src="images/obs1.png" width=300></td>
-    <td><img src="images/obs2.png" width=300></td>
+    <td><img src="images/obs1.png" width=250></td>
+    <td><img src="images/obs2.png" width=250></td>
   </tr>
  </table>
  
@@ -107,7 +108,7 @@ MolClustPy will analyze and plot the frequency of molecules in clusters with a g
 Finally, MolClustPy can plot bonds distribution for a specific molecular type, e.g. fraction of molecules Nck with a given number of bonds (which can go up to 4 at most):
 <table>
   <tr>
-    <td><img src="images/bonds_per_nck.png" width=300></td>
+    <td><img src="images/bonds_per_nck.png" width=200></td>
   </tr>
  </table>
 
