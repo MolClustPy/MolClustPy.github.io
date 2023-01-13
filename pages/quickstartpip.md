@@ -99,27 +99,36 @@ Plot Observable Time Course
 ```python
 plotTimeCourse(outpath, obsList=[1,5,11])
 ```
-
+```python
 # 2A: Cluster size distribution (ACO: Average Cluster Occupancy)
 plotClusterDist(outpath)
 # You can plot a binned distribution by providing cluster size ranges
 plotClusterDist(outpath, sizeRange=[1,10])
+```
 
+```python
 # 2B: Number of bonds per molecule
 plotBondsPerMolecule(outpath)
+```
+
+```python
 # 2C: Bound fraction distribution
 plotBoundFraction(outpath)
-
+```
+```python
 # 3A. Average composition of indivual clusters. 
 # Default is all the clusters present in the system. As before, adjust width and transparency (alpha) for visual clarity.
 plotClusterComposition(outpath, specialClusters=[], width=0.15, alpha=0.5)
 
 # You can look at the composition of a set of clusters (specialClusters) also
 plotClusterComposition(outpath, specialClusters=[4, 6, 7], width=0.15, alpha=0.5)
+```
 
+```python
 # 3B. Bondcount distribution of each molecular type 
 # You may provide a subset of molecules also
 plotBondCounts(outpath, molecules=['egfr'])
+```
 
 ### Locating Package Through Command Line
 
