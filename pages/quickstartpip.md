@@ -70,7 +70,7 @@ Once you have navigated to the directory, type "python3 _name_.py" (_name_ is wh
 
 The results will be a a folder with the same name and will end up in the same directory that the intial bngl file is located in.
 
-![Image](https://github.com/MolClustPy/MolClustPy.github.io/blob/main/downloads/unzipped_dir_structure.png)
+![Image](../images/Results.png)
 
 In this situation the bngl file is initialy located in the test_datasets folder and the resulting folder is created in the same location.
 
