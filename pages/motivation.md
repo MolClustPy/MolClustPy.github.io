@@ -4,7 +4,7 @@ layout: default
 permalink: motivation
 ---
 
-# Installation
+# MolClustPy: Biophysical Motivation
 
 
 [Biomolecular condensates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7434221/) are membrane-less sub-cellular compartments that play an important role in spatiotemporal regulation of cellular biochemistry. Clustering of weakly interacting multivalent biomolecules (proteins and nucleic acids) leads to condensate formation via phase transition ( [Li 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3343696/), [Hyman 2014](https://www.annualreviews.org/doi/full/10.1146/annurev-cellbio-100913-013325), [Choi 2020](https://www.annualreviews.org/doi/full/10.1146/annurev-biophys-121219-081629)). Dysregulation of condensate biology is implicated in a series of pathological conditions ([Alberti 2019](https://www.annualreviews.org/doi/10.1146/annurev-genet-112618-043527?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed), [Mathieu 2020](https://pubmed.ncbi.nlm.nih.gov/33004511/), [Wang 2021](https://www.nature.com/articles/s41392-021-00678-1)).
