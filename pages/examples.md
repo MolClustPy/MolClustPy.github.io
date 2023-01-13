@@ -6,8 +6,22 @@ permalink: examples
 
 # Examples of package usage
 
-### [Analysis of Nephrin-Nck-NWasp clustering](DEMO_neph_nck_nwasp.md)
-  - based on the <a href="https://pubmed.ncbi.nlm.nih.gov/34236318/">The solubility product extends the buffering concept to heterotypic biomolecular   condensates</a> manuscript.
+### Nephrin-Nck-NWasp clustering under low concentration
+ 
+ Based on the <a href="https://pubmed.ncbi.nlm.nih.gov/34236318/">The solubility product extends the buffering concept to heterotypic biomolecular   condensates</a> manuscript.
+
+- [Jupyter notebook](/notebooks/Nephrin_Nck_NWASP_low_concentration.ipynb)
+- [Web-page describing notebook](/DEMO_neph_nck_nwasp)
+- [Python code](/assets/test_datasets/Nephrin_Nck_NWASP_low_concentration.py)
+- [BNGL code](/assets/test_datasets/Nephrin_Nck_NWASP_low_concentration.bngl)
+
+
+### Nephrin-Nck-NWASP clustering with high_concentration
+
+- [Jupyter notebook](/notebooks/Nephrin_Nck_NWASP_high_concentration.ipynb)
+- [Web-page describing notebook](/Nephrin_Nck_NWASP_high_concentration_model)
+- [Python code](/assets/test_datasets/Nephrin_Nck_NWASP_high_concentration.py)
+- [BNGL code](/assets/test_datasets/Nephrin_Nck_NWASP_high_concentration.bngl)
 
 ### TLBR Model: Clustering of bivalent receptors (BR) by trivalent ligands (TL) [Goldstein & Perelson, 1984](https://pubmed.ncbi.nlm.nih.gov/6204698/)
 This model is a classic example of studying sol-gel transition in the context of ligand mediated (cell surface) receptor clustering. Note that NFSim does not prevent physiologically impossible clusters from forming - each molecule is assumed to be a long elastic string with sites on it, so every site can be bound to any other site.
