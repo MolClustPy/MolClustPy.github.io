@@ -178,7 +178,7 @@ This will output a path to the package that will look something like this
 
 ### Summary
 - Download and install [Anaconda Distribution](https://www.anaconda.com/products/distribution) for Python
-- Download .py file from the link provided above
+- Download .py and .bngl file from the link provided above
 - Type ```python file_name.py``` or ``` python3 file_name.py``` to run file
 - Outputs can be found in the same location as bngl file
 - Check Above or [How to Use](usage.md) for modifying code
