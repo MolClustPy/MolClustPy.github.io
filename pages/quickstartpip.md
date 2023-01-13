@@ -43,7 +43,7 @@ First choose and navigate to the directory that you want to house the files that
 
 Use "cd" to go into directories and ".." to go out
 
-![png](../images/cdDocs.png)
+![png](../images/CdDoc.png)
 
 Then you will create or obtain a .py file and place or move it into this directory
 
@@ -52,7 +52,7 @@ Then you will create or obtain a .py file and place or move it into this directo
 To create a file you can go in the terminal and use the vi command to create a new file.
 vi will create the file in the directory that you are currently navigated to.
 
-![png](../images/vi.png)
+![png](../images/ViEx.png)
 
 What to put in the .py file
 
@@ -60,13 +60,13 @@ This is where you will import the package and set the path to the bngl file that
 
 The bngl path should be you own local path
 
-![png](../images/FileContents.png)
+![png](../images/CodeEx.png)
 
 Once you have created the Python file and filled it, open terminal and navigate to the directory that the file is housed in
 
 Once you have navigated to the directory, type "python3 _name_.py" (_name_ is whatever you named your file) This will open and run the file.
 
-![png](../images/callFile.png)
+![png](../images/CodeRun.png)
 
 The results will be a a folder with the same name and will end up in the same directory that the intial bngl file is located in.
 
