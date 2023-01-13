@@ -15,9 +15,9 @@ jupyter notebook &
 ```
 Note that the notebook interface will appear in a new browser window or tab that has address http://localhost:8888/tree.
 
-- You will see several files with extension <b>.ipynb</b>: [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md), [EGFR.ipynb](EGFR.md) and [TLBR.ipynb](TLBR.md). Each of them corresponds to the description of cluster formation given in [BioNetGen](http://bionetgen.org) files located in <tt>test_datasets</tt> folder within clusteranalyzer directory. These files have the same name with extension <b>.bngl</b>. 
+- You will see several files with extension <b>.ipynb</b>: [Tutorial_neph_nck_nwasp.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb), [EGFR.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/EGFR_model.ipynb) and [TLBR.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/TLBR_model.ipynb). Each of them corresponds to the description of cluster formation given in [BioNetGen](http://bionetgen.org) files located in <tt>test_datasets</tt> folder within MolClustPy directory. These files have the same name with extension <b>.bngl</b>. 
 
-- The most commented model is [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md). We will use it in the tutorial given at [How to use](usage.md) page
+- The most documented model is [Tutorial_neph_nck_nwasp.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb). We will use it in the tutorial given at [How to use](usage.md) page
 It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation. 
 
 - Here we give some general remarks on how to run models with Jupyter notebook. Put your mouse into the first cell. e.g. where you see <font color = blue>In [1] :</font>
@@ -45,4 +45,3 @@ jupyter notebook &
     # bngl file (BioNetGen model) 
     bng_file = './test_dataset/neph_nck_nwasp_10_30_15uM.bngl'
 ```
-<b> Go to [Tutorial_neph_nck_nwasp.ipynb](DEMO_neph_nck_nwasp.md) for detailed description of each and every line in the Jupyter notebook. </b>
