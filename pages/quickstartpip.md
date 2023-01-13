@@ -9,6 +9,22 @@ permalink: quickstartpip
 ### Install Python
 - Download and install [Anaconda Distribution](https://www.anaconda.com/products/distribution) for Python
 
+### Locating Package Through Command Line
+
+If you need to find the location of the package
+- open terminal
+- open python and type
+
+```python
+import MolClustPy
+print(MolClustPy.__file__)
+```
+This will output a path to the package that will look something like this
+
+```python
+/usr/local/lib/python3.10/site-packages/MolClustPy/__init__.py
+```
+
 ### Download .py File
 
 Downloadable .py files that can be ran in Python: 
@@ -121,7 +137,6 @@ plotClusterComposition(outpath, specialClusters=[4, 6, 7], width=0.15, alpha=0.5
 # You may provide a subset of molecules also
 plotBondCounts(outpath, molecules=['egfr'])
 
-```
 
 ### Summary
 - Download and install [Anaconda Distribution](https://www.anaconda.com/products/distribution) for Python
