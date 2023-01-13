@@ -12,10 +12,10 @@ This example has low concentrations of molecules coresponding to 100 molecules o
 
 <img src="/images/aco_low.png" width=300>
 
-- [Jupyter notebook](/notebooks/Tutotial_Nephrin_Nck_NWASP.ipynb)
+- [Jupyter notebook](/notebooks/Tutorial_Nephrin_Nck_NWASP.ipynb)
 - [Web-page describing notebook](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb)
-- [Python code](/notebooks/Tutotial_Nephrin_Nck_NWASP.py)
-- [BNGL code](/notebooks/Tutotial_Nephrin_Nck_NWASP.bngl)
+- [Python code](/notebooks/Tutorial_Nephrin_Nck_NWASP.py)
+- [BNGL code](/notebooks/Tutorial_Nephrin_Nck_NWASP.bngl)
 
 
 ### Nephrin-Nck-NWASP clustering with high_concentration
