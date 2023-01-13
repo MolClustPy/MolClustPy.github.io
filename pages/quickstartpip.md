@@ -99,22 +99,34 @@ Plot Observable Time Course
 ```python
 plotTimeCourse(outpath, obsList=[1,5,11])
 ```
+Cluster size distribution :
+- Fraction of total molecules vs cluster size. Mean of the distribution is called average cluster occupancy (ACO) as shown by the dashed line. This is a probability distribution which suggests that the probability of finding a molecule in a cluster size 2 is 17% if the corresponding fraction is 0.17
+- For a large cluster size range, a binned histogram might be helpful. If a system forms clusters from 10 molecules to 1000 molecules, then one might inspect the distribution at certain size ranges like sizeRange = [1,10,100,1000]
+
 ```python
 # 2A: Cluster size distribution (ACO: Average Cluster Occupancy)
 plotClusterDist(outpath)
 # You can plot a binned distribution by providing cluster size ranges
 plotClusterDist(outpath, sizeRange=[1,10])
 ```
+Average degree of cross-linking. Number of bonds coming out of individual molecules at steady state.
 
 ```python
 # 2B: Number of bonds per molecule
 plotBondsPerMolecule(outpath)
 ```
+For each cluster, bound fractions (bound sites / total sites) and their relative frequencies are plotted. This shows the extent of binding site saturation within a given cluster size. Bound fraction converges to a fixed value for larger clusters for entropic reason.
 
 ```python
-# 2C: Bound fraction distribution
+# 2C: Bond fraction distribution
 plotBoundFraction(outpath)
 ```
+Apart from the cluster size distribution, it might be useful to know the composition of the clusters.
+- Relative fraction of each molecular type within a given cluster size. The summation of fractions is 1 for each cluster.
+- For large cluster size range, it might be of interest to inspect composition of a list of special clusters
+
+Width sets the thickness of the bars and alpha sets the transparency.
+
 ```python
 # 3A. Average composition of indivual clusters. 
 # Default is all the clusters present in the system. As before, adjust width and transparency (alpha) for visual clarity.
@@ -122,9 +134,7 @@ plotClusterComposition(outpath, specialClusters=[], width=0.15, alpha=0.5)
 
 # You can look at the composition of a set of clusters (specialClusters) also
 plotClusterComposition(outpath, specialClusters=[4, 6, 7], width=0.15, alpha=0.5)
-```
 
-```python
 # 3B. Bondcount distribution of each molecular type 
 # You may provide a subset of molecules also
 plotBondCounts(outpath, molecules=['egfr'])
