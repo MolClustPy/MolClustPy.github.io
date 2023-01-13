@@ -8,7 +8,7 @@ permalink: examples
 
 ### Nephrin-Nck-NWasp clustering under low concentration
  
- Based on the <a href="https://pubmed.ncbi.nlm.nih.gov/34236318/">The solubility product extends the buffering concept to heterotypic biomolecular   condensates</a> manuscript.
+ Based on the <a href="https://pubmed.ncbi.nlm.nih.gov/34236318/">The solubility product extends the buffering concept to heterotypic biomolecular   condensates</a> manuscript. This example has low concentrations of molecules coresponding to 100 molecules of  Nephrin, 300 Nck and 150 NWasp.
 
 - [Jupyter notebook](/notebooks/Nephrin_Nck_NWASP_low_concentration.ipynb)
 - [Web-page describing notebook](/DEMO_neph_nck_nwasp)
