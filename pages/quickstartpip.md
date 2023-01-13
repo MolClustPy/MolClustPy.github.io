@@ -4,99 +4,37 @@ layout: default
 permalink: quickstartpip
 ---
 
-# Quickstart Guide for the MolClustPy Python package
+# Quickstart Guide for the Command Line
+ 
+### Install Python
+- Download and install [Anaconda Distribution](https://www.anaconda.com/products/distribution) for Python
 
-This package contains all the code and functionality of the MolClustPy in a package
+### Download .py File
 
-### The first step is to install the MolClustPy package
-
-You can use this command in the Terminal to install the latest version of the package onto your device:
-
-```python
-pip install MolClustPy
-```
-
-The package will be installed into your device in the site-packages area
-
-The package contains:
-- three primarily used .py files: MultiRun_BNG.py, NFsim_data_analyzer.py, and DataViz_Nfsim.py. These are the files that will be imported into your code when you are using the package. Each of the files contains the functions that make up the MolClustPy package. The package contains other .py files to supplement these files.
-
-Example .py files that can be ran in Python: 
+Downloadable .py files that can be ran in Python: 
 - [Nephrin_Nck_NWASP_high_concentration.py](../assets/test_datasets/Nephrin_Nck_NWASP_high_concentration.py)
 - [EGFR_model.py](../assets/test_datasets/EGFR_model.py)
 - [TLBR_model.py](../assets/test_datasets/TLBR_model.py) 
- 
 
-To find the pathway of the location of the package:
+### Running .py File
 
-Open terminal, then type python
+Open Command Line and type
 
 ```python
->>> import MolClustPy;
->>> print(MolClustPy.__file__);
-/usr/local/lib/python3.10/site-packages/MolClustPy/__init__.py
+python file.py
 ```
+or
 
-### Running Package in Command Line
-
-First choose and navigate to the directory that you want to house the files that you are working with. 
-
-Use "cd" to go into directories and ".." to go out
-
-![png](../images/CdDoc.png)
-
-Then you will create or obtain a .py file and place or move it into this directory
-
-.py files have been provided
-
-To create a file you can go in the terminal and use the vi command to create a new file.
-vi will create the file in the directory that you are currently navigated to.
-
-![png](../images/ViEx.png)
-
-What to put in the .py file
-
-This is where you will import the package and set the path to the bngl file that you want to run 
-
-The bngl path should be you own local path
-
-![png](../images/CodeEx.png)
-
-Once you have created the Python file and filled it, open terminal and navigate to the directory that the file is housed in
-
-Once you have navigated to the directory, type "python3 _name_.py" (_name_ is whatever you named your file) This will open and run the file.
-
-![png](../images/CodeRun.png)
-
-The results will be a a folder with the same name and will end up in the same directory that the intial bngl file is located in.
-
-![Image](../images/Results.png)
-
-In this situation the bngl file is initialy located in the test_datasets folder and the resulting folder is created in the same location.
-
-### Using the MolClustPy Package
-
-Using the package is the same as using the code downloaded through the other methods(zip or github clone) but you will need to make a few changes.
-
-The main difference will be in the imports:
-
-Instead of doing this:
 ```python
-from NFsim_data_analyzer import *
-from DataViz_NFsim import * 
-from MultiRun_BNG import * 
+python3 file.y
 ```
 
-You should do this:
-```python
-from MolClustPy import *
-```
+### Summary
+- Download and install [Anaconda Distribution](https://www.anaconda.com/products/distribution) for Python
+- Download .py file from the link provided above
+- Type ```python file.py``` or ``` python3 file.py``` to run file
+- 
 
-You will also have to assign a bngl file of your own and its path when coding.
-```python  
-    # bngl file (BioNetGen model) 
-    bng_file = '/Users/name/Downloads/nfsimPy/test_dataset/single_concentration_file/neph_nck_nwasp_10_30_15uM.bngl'
-```
 You can follow the tutorial given at [How to use](usage.md) page and make these changes as you go.
 It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation while using the package. 
 
