@@ -34,7 +34,7 @@ python file_name.py
 or
 
 ```python
-python3 file_name.y
+python3 file_name.py
 ```
 
 ### Command Prompt Output and Results
