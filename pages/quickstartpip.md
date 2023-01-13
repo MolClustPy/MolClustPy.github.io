@@ -50,6 +50,7 @@ Then you will create or obtain a .py file and place or move it into this directo
 .py files have been provided
 
 To create a file you can go in the terminal and use the vi command to create a new file.
+vi will create the file in the directory that you are currently navigated to.
 
 ![png](../images/vi.png)
 
