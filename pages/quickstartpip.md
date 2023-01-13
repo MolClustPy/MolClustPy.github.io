@@ -55,6 +55,9 @@ Note: If the folder already contains results and number of current trials is les
 
 ### Modifying the .py File
 
+This section will get you started on understanding and making changes to the code.
+For greater detail, visit the [How to Use](usage.md) page.
+
 Import package and set bngl file
 
 ```python
