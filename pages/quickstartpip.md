@@ -68,7 +68,7 @@ Once you have navigated to the directory, type "python3 _name_.py" (_name_ is wh
 
 ![png](../images/callFile.png)
 
-The results will end up in the same directory that the intial bngl file is located in.
+The results will be a a folder with the same name and will end up in the same directory that the intial bngl file is located in.
 
 ![Image](https://github.com/MolClustPy/MolClustPy.github.io/blob/main/downloads/unzipped_dir_structure.png)
 
