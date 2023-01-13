@@ -6,7 +6,9 @@ layout: default
 
 ## Python package to analyze composition of multivalent biomolecular clusters 
 
-When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions ([Mayer et al, 2009](https://jbiol.biomedcentral.com/articles/10.1186/jbiol185)), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFsim (Network-Free stochastic simulator, [Sneddon et al, 2011](https://pubmed.ncbi.nlm.nih.gov/21186362/)) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types. Please note that NFsim is a non-spatial simulator, so it does not account for excluded volume and non-physical crosslinking when generating molecular complexes.
+When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions ([Mayer et al, 2009](https://jbiol.biomedcentral.com/articles/10.1186/jbiol185)), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFsim (Network-Free stochastic simulator, [Sneddon et al, 2011](https://pubmed.ncbi.nlm.nih.gov/21186362/)) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types. 
+
+Please note that NFsim is a non-spatial simulator, so it does not account for excluded volume and non-physical crosslinking when generating molecular complexes.
 
 ## Input: rule-based model specification in BioNetGen Language (BNGL) format
 
@@ -23,7 +25,7 @@ NWasp(p1,p2,p3,p4,p5,p6)
   </tr>
  </table>
 
-Here on the left we show visaulization of molecules in VCell notations ([Schaff et al., 2016](https://academic.oup.com/bioinformatics/article/32/18/2880/1744348)): Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binfing sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6. On the right we show how these molecules are defined in BNGL notations.
+Here on the left we show visaulization of molecules in VCell notations ([Schaff et al., 2016](https://academic.oup.com/bioinformatics/article/32/18/2880/1744348)): Nck has 4 binding sites - one SH2 and three SH3 (called s1, s2, s3); Nephrin has three tyrosine binding sites Y1, Y2 and Y3; and N-Wasp has 6 PRM binding sites coded p1, p2, ..p6. On the right we show how these molecules are defined in BNGL notations.
 
 
 A set of rules then specifies the interactions among molecules.
@@ -40,7 +42,7 @@ Nck(s1) + NWASP(p1) <-> Nck(S1!1).NWASP(p1!1)		        kon_23, koff_23
 Nephrin(pY1) + Nck(Sh2) <-> Nephrin(pY1!1).Nck(Sh2!1)		kon_12, koff_12
 ```
 
-Finally, the essential part of model specification is the observables - the pattern that specify properties of molecular complexes we'd like to track. Below are three observables - free Nephrin (no site is bound), fully bound Nephrin (all sites are bound), and a comples of Nick and NWasp with undefined connectivity. Underneath are the same observables written in BNGL notations.
+Finally, the essential part of model specification is the observables - the pattern that specify properties of molecular complexes we'd like to track. Below are three observables - free Nephrin (no site is bound), fully bound Nephrin (all sites are bound), and a complex of Nck and NWasp with undefined connectivity. Underneath are the same observables written in BNGL notations.
 
 <table>
   <tr>
@@ -55,14 +57,14 @@ Molecules fully_bound_Nephrin Nephrin(pY1!+,pY2!+,pY3!+)
 Molecules cluster_nck_nw Nck().NWASP()
 ```
 
-The results of a single NFSim simulation are 1) timecourses for all observables; and (2) the file with the final set of molecular complexes. Below is a snapshot of a rather small molecular cluster and the neginning of BNGL string describing it:
+The results of a single NFsim simulation are 1) timecourses for all observables; and (2) the file with the final set of molecular complexes. Below is a snapshot of a rather small molecular cluster and the beginning of BNGL string describing it:
 
 <img src="images/cluster.png" width=800>
  ```code
 NWASP(p1!1,p2,p3,p4,p5!2,p6!3).Nck(S1!1,S2,S3!4,Sh2).Nck(S1!2,S2!5,S3,Sh2)...
 ```
 
-## Output: statistical characterization of molecular clusters composition
+## Output: statistical characterization of molecular clusters
 
 MolClustPy is a Python package that can be run as a command line or as a Jupyter notebook. It simulates the BNGL file several (user-defined) number of times and outputs visualization of simulation results. Below the model specified in './test_dataset/Nephrin_Nck_NWASP_high_concentration.bngl' file is simulated <b>numRuns</b> times for 20 milliseconds (<b>t_end</b>).
 <img src="images/start.png" width=500>
@@ -95,7 +97,7 @@ MolClustPy will analyze and plot the frequency of molecules in clusters with a g
  
 ### Molecule-specific properties of clusters
   
- Apart from the cluster size distribution, it might be useful to know the composition of the clusters with respect to individual molecular types. On the left we plot the relative fraction of each molecular type within a given cluster size. Note that the sum of all fractions for a given molecular types should be equal to one. For large cluster size range, it might be of interest to inspect composition of a list of special clusters - either a set of small clusters (2,4,10 - middle plot), or a set of large clusters (580, 587 - right plot).
+ Apart from the cluster size distribution, it might be useful to know the composition of the clusters with respect to individual molecular types. On the left we plot the relative fraction of each molecular type within a given cluster size. Note that the sum of all molecular fractions for a given cluster size should be equal to one. For large cluster size range, it might be of interest to inspect composition of a list of special clusters - either a set of small clusters (2,4,10 - middle plot), or a set of large clusters (580, 587 - right plot).
  
  <table>
   <tr>
@@ -105,13 +107,13 @@ MolClustPy will analyze and plot the frequency of molecules in clusters with a g
   </tr>
  </table>
 
-Finally, MolClustPy can plot bonds distribution for a specific molecular type, e.g. fraction of molecules Nck with a given number of bonds (which can go up to 4 at most):
+Finally, MolClustPy can plot bonds distribution for a specific molecular type, e.g. how cross-linked or saturated Nck molecules are in the system? Each Nck can have 1 to 4 bonds:
 <table>
   <tr>
     <td><img src="images/bonds_per_nck.png" width=200></td>
   </tr>
  </table>
 
-### Text data for individual processing
+### Data storage for post-processing
  
-All the simulation outputs of NFSim is written to the folder with the same name as the BNGL file. The statistical data generated by MolClustPy and used to plot figures is stored in pyStat folder within the model folder.
+All the simulation outputs (gdat and species files) of NFsim is written to the folder with the same name as the BNGL file. The statistical data generated by MolClustPy and used to plot figures is stored in pyStat folder within the model folder.
