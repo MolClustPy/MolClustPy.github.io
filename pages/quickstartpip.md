@@ -33,11 +33,11 @@ python3 file_name.y
 
 The terminal will ouput this 
 
-![png]()
+![png](../images/CmdPromptOut.png)
 
 The outputed results will be found in the same location as the bngl file
 
-![png]()
+![png](../images/ResultsFolder.png)
 
 Simulation output will be stored in a folder called MyModel if the model name is MyModel.bngl. There are two types of output:
 - gdat files (Run_1.gdat, Run_2.gdat, ... , Run_N.gdat) containing the timeseries of observables
