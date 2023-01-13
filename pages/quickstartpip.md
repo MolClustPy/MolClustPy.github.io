@@ -11,7 +11,7 @@ permalink: quickstartpip
 
 ### Pip Install Package
 
-Open terminal and type
+Open terminal and type:
 
 ```python
 pip install MolClustPy
@@ -26,7 +26,7 @@ Downloadable .py files that can be ran in Python:
 
 ### Running .py File
 
-Open Command Line and in the same directory as the file, type
+Open Command Line and in the same directory as the file, type:
 
 ```python
 python file_name.py
