@@ -149,11 +149,9 @@ This will output a path to the package that will look something like this
 ### Summary
 - Download and install [Anaconda Distribution](https://www.anaconda.com/products/distribution) for Python
 - Download .py file from the link provided above
-- Type ```python file.py``` or ``` python3 file.py``` to run file
-- 
-
-You can follow the tutorial given at [How to use](usage.md) page and make these changes as you go.
-It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation while using the package. 
+- Type ```python file_name.py``` or ``` python3 file_name.py``` to run file
+- Outputs can be found in the same location as bngl file
+- Check Above or [How to Use](usage.md) for modifying code
 
 <b> You can check [MolClustPy Jupyter Notebook DEMO](MolClustPy_Usage/MolClustPy_Usage.md) for an example of how the package is used. </b>
 
