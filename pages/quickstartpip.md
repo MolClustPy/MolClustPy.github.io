@@ -21,12 +21,12 @@ Downloadable .py files that can be ran in Python:
 Open Command Line and type
 
 ```python
-python file.py
+python __file_name__.py
 ```
 or
 
 ```python
-python3 file.y
+python3 __file_name__.y
 ```
 
 ### Summary
