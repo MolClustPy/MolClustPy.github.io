@@ -5,7 +5,7 @@ permalink: EGFR_model
 ---
 ### Modeling the early events in signaling by the epidermal growth factor receptor (EGFR), [Blinov 2006](https://www.sciencedirect.com/science/article/abs/pii/S0303264705001231/)
 
-**It is recommended that you run [Jupyter notebook](../../notebooks/EGFR.ipynb) - it has all the text below. This page is given just for convenience of those who don't have an opportunity to run notebook**
+**It is recommended that you run [Jupyter notebook](../../notebooks/EGFR_model.ipynb) - it has all the text below. This page is given just for convenience of those who don't have an opportunity to run notebook**
 
 
 
