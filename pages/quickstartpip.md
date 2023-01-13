@@ -24,6 +24,11 @@ Downloadable .py files that can be ran in Python:
 - [EGFR_model.py](../assets/test_datasets/EGFR_model.py)
 - [TLBR_model.py](../assets/test_datasets/TLBR_model.py) 
 
+Downloadable .bngl files that correlate with the above .py files:
+- [Nephrin_Nck_NWASP_high_concentration.bngl](../assets/test_datasets/Nephrin_Nck_NWASP_high_concentration.bngl)
+- [EGFR_model.bngl](../assets/test_datasets/EGFR_model.bngl)
+- [TLBR_model.bngl](../assets/test_datasets/TLBR_model.bngl) 
+
 ### Modifying the .py File
 
 This section will get you started on understanding and making changes to the code.
