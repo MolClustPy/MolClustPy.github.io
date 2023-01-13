@@ -34,7 +34,7 @@ Downloadable .bngl files that correlate with the above .py files:
 This section will get you started on understanding and making changes to the code.
 For greater detail, visit the [How to Use](usage.md) page.
 
-Import package and set bngl file
+Import package and set bngl file path
 
 ```python
 from MolClustPy import *
