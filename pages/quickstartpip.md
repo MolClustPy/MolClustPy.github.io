@@ -18,7 +18,7 @@ Downloadable .py files that can be ran in Python:
 
 ### Running .py File
 
-Open Command Line and type
+Open Command Line and in the same directory as the file, type
 
 ```python
 python file_name.py
