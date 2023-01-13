@@ -6,7 +6,9 @@ permalink: DEMO_neph_nck_nwasp
 
 # Analysis of Nephrin-Nck-NWasp clustering
 
-This script contains step by step instructions on how to run multiple [NFsim](http://michaelsneddon.net/nfsim/) simulations of a [BioNetGen](https://bionetgen.org/) model of [multivalent protein clustering](https://elifesciences.org/articles/67176) and collect statistics to analyze biophysical properties of these clusters.
+**It is recommended that you run [Jupyter notebook](../notebooks/Tutorial_Nephrin_Nck_NWASP.ipynb) - it has all the text below. This page is given just for convenience of those who don't have an opportunity to run notebook**
+
+This page contains step by step instructions on how to run multiple [NFsim](http://michaelsneddon.net/nfsim/) simulations of a [BioNetGen](https://bionetgen.org/) model of [multivalent protein clustering](https://elifesciences.org/articles/67176) and collect statistics to analyze biophysical properties of these clusters.
 
 ###  Import the packages first 
 
