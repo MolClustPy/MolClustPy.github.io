@@ -39,25 +39,35 @@ The outputed results will be found in the same location as the bngl file
 
 ![png]()
 
+Simulation output will be stored in a folder called MyModel if the model name is MyModel.bngl. There are two types of output:
+- gdat files (Run_1.gdat, Run_2.gdat, ... , Run_N.gdat) containing the timeseries of observables
+- species files (Run_1.species, Run_2.species, ... , Run_N.species) containing the molecular species (clusters)
+
+Note: If the folder already contains results and number of current trials is less than existing ones, then existing results will be deleted. For higher number of trials, existing trajectories will be overwritten.
+
 ### Modifying the .py File
+
 
 ```python
 from MolClustPy import *
 
 # bngl file (BioNetGen model) 
 bng_file = 'place the path to your local .bngl file here'
+```
 
-"""
 Specify the simulation details
-    * duration of each simulation (*t_end*)
-    * number of output points (*steps*)
-    * number of stochastic trials (*numRuns*) 
-"""
+    * duration of each simulation (t_end)
+    * number of output points (steps)
+    * number of stochastic trials (numRuns) 
+
+```python
 # run multiple trials
 simObj = BNG_multiTrials(bng_file, t_end=20, steps=20, numRuns=20)
 print(simObj)
 simObj.runTrials(delSim=False)
 print()
+```
+
 
 # analyze data across multiple trials
 outpath = simObj.getOutPath()
