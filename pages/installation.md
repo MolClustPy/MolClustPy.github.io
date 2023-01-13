@@ -34,7 +34,7 @@ Download the zip file by clicking on [MolClustPy.zip](https://github.com/MolClus
 
 ### Option 2: Github
 
-Git users may [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository using 
+Git users may [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository](https://github.com/achattaraj/MolClustPy) using 
 ```python
 git clone https://github.com/achattaraj/MolClustPy/MolClustPy.git
 ```
