@@ -9,6 +9,14 @@ permalink: quickstartpip
 ### Install Python
 - Download and install [Anaconda Distribution](https://www.anaconda.com/products/distribution) for Python
 
+### Pip Install Package
+
+Open terminal and type
+
+```python
+pip install MolClustPy
+```
+
 ### Download .py File
 
 Downloadable .py files that can be ran in Python: 
