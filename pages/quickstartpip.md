@@ -26,7 +26,7 @@ Downloadable .py files that can be ran in Python:
 - [TLBR_model.py](../notebooks/TLBR_model.py) 
 
 Downloadable .bngl files that correlate with the above .py files:
-- - [Nephrin_Nck_NWASP_high_concentration.py](../notebooks/Nephrin_Nck_NWASP_high_concentration.bngl)
+- [Nephrin_Nck_NWASP_high_concentration.py](../notebooks/Nephrin_Nck_NWASP_high_concentration.bngl)
 - [Tutorial_Nephrin_Nck_NWASP](../notebooks/Tutorial_Nephrin_Nck_NWASP.bngl)
 - [EGFR_model.py](../notebooks/EGFR_model.bngl)
 - [TLBR_model.py](../notebooks/TLBR_model.bngl) 
