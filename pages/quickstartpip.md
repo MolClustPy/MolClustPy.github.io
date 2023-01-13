@@ -24,35 +24,6 @@ Downloadable .py files that can be ran in Python:
 - [EGFR_model.py](../assets/test_datasets/EGFR_model.py)
 - [TLBR_model.py](../assets/test_datasets/TLBR_model.py) 
 
-### Running .py File
-
-Open Command Line and in the same directory as the file, type:
-
-```python
-python file_name.py
-```
-or
-
-```python
-python3 file_name.py
-```
-
-### Command Prompt Output and Results
-
-The terminal will ouput this: 
-
-![png](../images/CmdPromptOut.png)
-
-The outputed results will be found in the same location as the bngl file:
-
-![png](../images/ResultsFolder.png)
-
-Simulation output will be stored in a folder called MyModel if the model name is MyModel.bngl. There are two types of output:
-- gdat files (Run_1.gdat, Run_2.gdat, ... , Run_N.gdat) containing the timeseries of observables
-- species files (Run_1.species, Run_2.species, ... , Run_N.species) containing the molecular species (clusters)
-
-Note: If the folder already contains results and number of current trials is less than existing ones, then existing results will be deleted. For higher number of trials, existing trajectories will be overwritten.
-
 ### Modifying the .py File
 
 This section will get you started on understanding and making changes to the code.
@@ -150,6 +121,37 @@ plotClusterComposition(outpath, specialClusters=[4, 6, 7], width=0.15, alpha=0.5
 # You may provide a subset of molecules also
 plotBondCounts(outpath, molecules=['egfr'])
 ```
+
+
+### Running .py File
+
+Open Command Line and in the same directory as the file, type:
+
+```python
+python file_name.py
+```
+or
+
+```python
+python3 file_name.py
+```
+
+### Command Prompt Output and Results
+
+The terminal will ouput this: 
+
+![png](../images/CmdPromptOut.png)
+
+The outputed results will be found in the same location as the bngl file:
+
+![png](../images/ResultsFolder.png)
+
+Simulation output will be stored in a folder called MyModel if the model name is MyModel.bngl. There are two types of output:
+- gdat files (Run_1.gdat, Run_2.gdat, ... , Run_N.gdat) containing the timeseries of observables
+- species files (Run_1.species, Run_2.species, ... , Run_N.species) containing the molecular species (clusters)
+
+Note: If the folder already contains results and number of current trials is less than existing ones, then existing results will be deleted. For higher number of trials, existing trajectories will be overwritten.
+
 
 ### Locating Package Through Command Line
 
