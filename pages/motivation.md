@@ -13,6 +13,6 @@ Since clustering of multivalent biomolecules underlies the condensate formation,
 
 Molecular clustering shows a switch-like behavior ([phase transition](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3343696/)) in a concentration dependent manner ( [Chattaraj 2021](https://elifesciences.org/articles/67176), [Chattaraj 2023](https://www.biorxiv.org/content/10.1101/2022.10.04.510809v1)). Below a threshold concentration, molecules remain in monomeric and small oligomeric state (left panel, dispersed state) that will manifest as a single homogeneous phase. Upon crossing the threshold, system tends form really large clusters (right panel, condensed state). The co-existence of large clusters along with small clusters result in a spliting of the system into two distinct phases (dense and dilute). The dense phase (large clusters) assumes the role of the condensate in different biological contexts. Also, the phase transition can be reversed by changing the post-translational modification state. Thus studying these clustering processes provide crucial mechanistic understanding of cell biology.
 
-<img src="images/intro_fig_mcpy.png">
+<img src="../images/intro_fig_mcpy.png">
 
 
