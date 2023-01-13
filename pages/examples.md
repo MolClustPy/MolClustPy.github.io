@@ -8,7 +8,7 @@ permalink: examples
 
 ### Nephrin-Nck-NWasp clustering under low concentration
  
- Based on the <a href="https://pubmed.ncbi.nlm.nih.gov/34236318/">The solubility product extends the buffering concept to heterotypic biomolecular   condensates</a> manuscript. This example has low concentrations of molecules coresponding to 100 molecules of  Nephrin, 300 Nck and 150 NWasp. The MolClustPy demonstrates that the cluster distribution for this concentration is linear, with most clusters of low number of molecules and some rare large clusters.
+ Based on the <a href="https://pubmed.ncbi.nlm.nih.gov/34236318/">The solubility product extends the buffering concept to heterotypic biomolecular   condensates</a> manuscript. This example has low concentrations of molecules coresponding to 100 molecules of  Nephrin, 300 Nck and 150 NWasp. The MolClustPy demonstrates that the cluster distribution for this concentration is linear, with most clusters of low number of molecules and some rare large clusters. <img src="images/aco_low.png" width=300>
 
 - [Jupyter notebook](/notebooks/Nephrin_Nck_NWASP_low_concentration.ipynb)
 - [Web-page describing notebook](/DEMO_neph_nck_nwasp)
@@ -18,7 +18,7 @@ permalink: examples
 
 ### Nephrin-Nck-NWASP clustering with high_concentration
 
-This example has high concentrations of molecules coresponding to 300 molecules of Nephrin, 900 Nck and 450 NWasp. The MolClustPy demonstrates that the cluster distribution for this concentration is bimodal, with most molecules in either small or very big clusters.
+This example has high concentrations of molecules coresponding to 300 molecules of Nephrin, 900 Nck and 450 NWasp. The MolClustPy demonstrates that the cluster distribution for this concentration is bimodal, with most molecules in either small or very big clusters. <img src="images/aco_high.png" width=300>
 
 - [Jupyter notebook](/notebooks/Nephrin_Nck_NWASP_high_concentration.ipynb)
 - [Web-page describing notebook](/Nephrin_Nck_NWASP_high_concentration_model)
