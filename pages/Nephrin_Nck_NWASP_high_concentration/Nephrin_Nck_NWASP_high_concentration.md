@@ -5,6 +5,8 @@ permalink: Nephrin_Nck_NWASP_high_concentration
 ---
 # Higher concentrations of Nephrin, Nck and NWASP produce large clusters, an indication of phase transition.
 
+**It is recommended that you run [Jupyter notebook](../../notebooks/Nephrin_Nck_NWASP_high_concentration.ipynb) - it has all the text below. This page is given just for convenience of those who don't have an opportunity to run notebook**
+
 
 ```python
 # Package import
