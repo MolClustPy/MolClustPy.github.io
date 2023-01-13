@@ -31,6 +31,8 @@ Downloadable .bngl files that correlate with the above .py files:
 
 Once the .bngl file is downloaded, identify its location/path
 
+You will need to set the .bngl file's path in the .py file
+
 ### Modifying the .py File
 
 This section will get you started on understanding and making changes to the code.
