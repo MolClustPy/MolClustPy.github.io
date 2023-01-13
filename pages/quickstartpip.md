@@ -72,6 +72,8 @@ The results will end up in the same directory that the intial bngl file is locat
 
 ![Image](https://github.com/MolClustPy/MolClustPy.github.io/blob/main/downloads/unzipped_dir_structure.png)
 
+In this situation the bngl file is initiall located in the test_datasets folder and the resulting folder is created in the same location.
+
 ### Using the MolClustPy Package
 
 Using the package is the same as using the code downloaded through the other methods(zip or github clone) but you will need to make a few changes.
