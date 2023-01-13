@@ -90,8 +90,15 @@ nfsObj.process_gdatfiles()
 #nfsObj.process_speciesfiles(molecules, counts=counts, valency=numSite) # will give an error
 nfsObj.process_speciesfiles(molecules, counts=[59,27,62,120,180], valency=numSite)
 ```
+Plot Observable Time Course
 
+- A list of observables can be passed by the indexList (as printed earlier)
+- If nothing is passed, all the observables will be plotted
+- The dark line denotes the mean trajectory and the fluctuation envelop displays the standard deviation at that point
+
+```python
 plotTimeCourse(outpath, obsList=[1,5,11])
+```
 
 # 2A: Cluster size distribution (ACO: Average Cluster Occupancy)
 plotClusterDist(outpath)
