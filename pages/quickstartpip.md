@@ -71,7 +71,7 @@ print()
 
 NFsim_output_analyzer collects the observables and molecular clusters to perform various statistical analysis:
 - Ensemble average of the observables (Enlist the observables in order to visualize in later section)
-- Biophysical characterization of the molecular clusters (size distribution, composition, degree of saturation and cross-linking). In order to do these calculations, the function ( process_speciesfiles ) expects the following arguments
+Biophysical characterization of the molecular clusters (size distribution, composition, degree of saturation and cross-linking). In order to do these calculations, the function ( process_speciesfiles ) expects the following arguments
 -  Name of the molecules ( molecules )
 -  Number of molecules ( counts )
 -  Valency or number of binding sites of each molecular type ( numSite )
