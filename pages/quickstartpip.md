@@ -132,7 +132,7 @@ plotBondCounts(outpath, molecules=['egfr'])
 
 ### Running .py File
 
-Open Command Line and in the same directory as the file, type:
+Open Command Line and in the same directory as the .py file, type:
 
 ```python
 python file_name.py
