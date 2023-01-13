@@ -38,6 +38,6 @@ This model is a classic example of studying sol-gel transition in the context of
 In this model signaling complexes formed around receptor dimer, with maximum size of a complex being 14 molecules (2 ligands, 2 receptors, and all combinetions of Grb2, Shc and Sos proteins bound to 2 receptor phoisphotyrosines. Contrary to the preevious model, all such complexes are physically possible.
 
 - [Jupyter notebook](/notebooks/EGFR_model.ipynb)
-- [Web-page describing notebook](/EGFR_model)
+- [Web-page describing notebook]([/EGFR_model](https://github.com/achattaraj/MolClustPy/blob/master/EGFR_model.ipynb))
 - [Python code](/assets/test_datasets/EGFR_model.py)
 - [BNGL code](/assets/test_datasets/EGFR_model.bngl)
