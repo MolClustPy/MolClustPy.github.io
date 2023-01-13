@@ -31,6 +31,11 @@ pip install bionetgen
 
 Download the zip file by clicking on [MolClustPy.zip](https://github.com/MolClustPy/MolClustPy.github.io/blob/main/downloads/MolClustPy.zip), unzip.
 
+The unzipped directory structure:
+
+![The unzipped folder structure](https://github.com/MolClustPy/MolClustPy.github.io/blob/main/downloads/unzipped_dir_structure.png) 
+
+
 ### Option 2: Github
 
 Git users may clone the repository using 
@@ -44,6 +49,6 @@ clone https://github.com/achattaraj/MolClustPy/MolClustPy.git
 pip install MolClustPy
 ```
  
- After download/install, navigate to the directory/folder where MolClustPy is installed and follow steps at [Start Guide](/quickstart)
+ After download/install, navigate to the directory/folder where MolClustPy is installed and follow steps at [Start Guide](https://github.com/MolClustPy/MolClustPy.github.io/blob/main/pages/quickstartJupyter.md)
  
 
