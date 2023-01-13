@@ -6,7 +6,7 @@ layout: default
 
 ## Python package to analyze composition of multivalent biomolecular clusters 
 
-When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions ([Mayer et al, 2009](https://jbiol.biomedcentral.com/articles/10.1186/jbiol185)), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFsim (Network-Free stochastic simulator, ) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types.
+When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions ([Mayer et al, 2009](https://jbiol.biomedcentral.com/articles/10.1186/jbiol185)), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFsim (Network-Free stochastic simulator, [Sneddon et al, 2011](https://pubmed.ncbi.nlm.nih.gov/21186362/)) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types. Please note that NFsim is a non-spatial simulator, so it does not account for excluded volume and non-physical crosslinking when generating molecular complexes.
 
 ## Input: rule-based model specification in BioNetGen Language (BNGL) format
 
