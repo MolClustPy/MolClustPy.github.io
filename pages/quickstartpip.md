@@ -39,11 +39,11 @@ python3 file_name.py
 
 ### Command Prompt Output and Results
 
-The terminal will ouput this 
+The terminal will ouput this: 
 
 ![png](../images/CmdPromptOut.png)
 
-The outputed results will be found in the same location as the bngl file
+The outputed results will be found in the same location as the bngl file:
 
 ![png](../images/ResultsFolder.png)
 
