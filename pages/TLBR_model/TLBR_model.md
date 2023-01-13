@@ -3,7 +3,7 @@ title: TLBR_model
 layout: default
 permalink: TLBR_model
 ---
-### TLBR Model: Clustering of bivalent receptors (BR) by trivalent ligands (TL) [Goldstein 1984, Biophy J](https://pubmed.ncbi.nlm.nih.gov/6204698/)
+### TLBR Model: Clustering of bivalent receptors (BR) by trivalent ligands (TL) [Goldstein & Perelson, 1984, Biophy J](https://pubmed.ncbi.nlm.nih.gov/6204698/)
 This model is a classic example of studying sol-gel transition in the context of ligand mediated (cell surface) receptor clustering. 
 
 **It is recommended that you run [Jupyter notebook](../../notebooks/TLBR_model.ipynb) - it has all the text below. This page is given just for convenience of those who don't have an opportunity to run notebook**
