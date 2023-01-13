@@ -47,6 +47,7 @@ Note: If the folder already contains results and number of current trials is les
 
 ### Modifying the .py File
 
+Import package and set bngl file
 
 ```python
 from MolClustPy import *
@@ -56,9 +57,9 @@ bng_file = 'place the path to your local .bngl file here'
 ```
 
 Specify the simulation details
-    * duration of each simulation (t_end)
-    * number of output points (steps)
-    * number of stochastic trials (numRuns) 
+- duration of each simulation (t_end)
+- number of output points (steps)
+- number of stochastic trials (numRuns) 
 
 ```python
 # run multiple trials
@@ -68,7 +69,18 @@ simObj.runTrials(delSim=False)
 print()
 ```
 
+NFsim_output_analyzer collects the observables and molecular clusters to perform various statistical analysis:
+- Ensemble average of the observables (Enlist the observables in order to visualize in later section)
+- Biophysical characterization of the molecular clusters (size distribution, composition, degree of saturation and cross-linking). In order to do these calculations, the function ( process_speciesfiles ) expects the following arguments
+-  Name of the molecules ( molecules )
+-  Number of molecules ( counts )
+-  Valency or number of binding sites of each molecular type ( numSite )
 
+These details are automatically filled in by parsing the input file.
+
+Note: If the model contains multi-molecular species as initial conditions, then the user needs to provide the initial counts manually.
+
+```python
 # analyze data across multiple trials
 outpath = simObj.getOutPath()
 molecules, numSite, counts, _ = simObj.getMolecules()
@@ -76,6 +88,7 @@ nfsObj = NFSim_output_analyzer(outpath)
 nfsObj.process_gdatfiles()
 #nfsObj.process_speciesfiles(molecules, counts=counts, valency=numSite) # will give an error
 nfsObj.process_speciesfiles(molecules, counts=[59,27,62,120,180], valency=numSite)
+```
 
 plotTimeCourse(outpath, obsList=[1,5,11])
 
