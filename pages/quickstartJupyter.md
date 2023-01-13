@@ -17,7 +17,7 @@ Note that the notebook interface will appear in a new browser window or tab that
 
 - You will see several files with extension <b>.ipynb</b>: [Tutorial_Nephrin_Nck_NWASP.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb), [EGFR_model.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/EGFR_model.ipynb) and [TLBR_model.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/TLBR_model.ipynb). Each of them corresponds to the description of cluster formation given in [BioNetGen](http://bionetgen.org) files located in <tt>test_datasets</tt> folder within MolClustPy directory. These files have the same name with extension <b>.bngl</b>. 
 
-- The most documented model is [Tutorial_Nephrin_Nck_NWASP.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb). We will use it in the tutorial given at [How to use](usage.md) page
+- The most documented model is [Tutorial_Nephrin_Nck_NWASP.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb). We will use it in the tutorial given at [How to use](https://github.com/MolClustPy/MolClustPy.github.io/blob/main/pages/usage.md) page
 It will provide step-by-step guide to modifying inputs and analyzing outputs of cluster formation. 
 
 - Here we give some general remarks on how to run models with Jupyter notebook. Put your mouse into the first cell. e.g. where you see <font color = blue>In [1] :</font>
