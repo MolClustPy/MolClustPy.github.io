@@ -29,6 +29,8 @@ Downloadable .bngl files that correlate with the above .py files:
 - [EGFR_model.bngl](../assets/test_datasets/EGFR_model.bngl)
 - [TLBR_model.bngl](../assets/test_datasets/TLBR_model.bngl) 
 
+Once the .bngl file is downloaded, identify its location/path
+
 ### Modifying the .py File
 
 This section will get you started on understanding and making changes to the code.
