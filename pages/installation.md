@@ -29,7 +29,7 @@ pip install bionetgen
 
 ### Option 1: Source folder: 
 
-Download the zip file by clicking on [MolClustPy.zip](downloads/MolClustPy.zip), unzip.
+Download the zip file by clicking on [MolClustPy.zip](https://github.com/MolClustPy/MolClustPy.github.io/blob/main/downloads/MolClustPy.zip), unzip.
 
 ### Option 2: Github
 
