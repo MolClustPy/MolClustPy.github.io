@@ -20,14 +20,16 @@ pip install MolClustPy
 ### Download .py File
 
 Downloadable .py files that can be ran in Python: 
-- [Nephrin_Nck_NWASP_high_concentration.py](../assets/test_datasets/Nephrin_Nck_NWASP_high_concentration.py)
-- [EGFR_model.py](../assets/test_datasets/EGFR_model.py)
-- [TLBR_model.py](../assets/test_datasets/TLBR_model.py) 
+- [Nephrin_Nck_NWASP_high_concentration.py](../notebooks/Nephrin_Nck_NWASP_high_concentration.py)
+- [Tutorial_Nephrin_Nck_NWASP](../notebooks/Tutorial_Nephrin_Nck_NWASP.py)
+- [EGFR_model.py](../notebooks/EGFR_model.py)
+- [TLBR_model.py](../notebooks/TLBR_model.py) 
 
 Downloadable .bngl files that correlate with the above .py files:
-- [Nephrin_Nck_NWASP_high_concentration.bngl](../assets/test_datasets/Nephrin_Nck_NWASP_high_concentration.bngl)
-- [EGFR_model.bngl](../assets/test_datasets/EGFR_model.bngl)
-- [TLBR_model.bngl](../assets/test_datasets/TLBR_model.bngl) 
+- - [Nephrin_Nck_NWASP_high_concentration.py](../notebooks/Nephrin_Nck_NWASP_high_concentration.bngl)
+- [Tutorial_Nephrin_Nck_NWASP](../notebooks/Tutorial_Nephrin_Nck_NWASP.bngl)
+- [EGFR_model.py](../notebooks/EGFR_model.bngl)
+- [TLBR_model.py](../notebooks/TLBR_model.bngl) 
 
 Once the .bngl file is downloaded, identify its location/path
 
