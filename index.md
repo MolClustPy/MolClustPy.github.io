@@ -4,15 +4,23 @@ layout: default
 
 # MolClustPy
 
-## Python package to analyze composition of multivalent biomolecular clusters 
+## Python package to characterize the multivalent biomolecular clusters 
 
 When the affinities of the individual molecular interactions are relatively weak, multivalent clusters maintain their integrity but allow various molecular compositions ([Mayer et al, 2009](https://jbiol.biomedcentral.com/articles/10.1186/jbiol185)), so multiple simulation runs are required to determine the average behavior of such bimolecular system. <b>MolClustPy</b> is a Python package to perform multiple stochastic simulation runs using NFsim (Network-Free stochastic simulator, [Sneddon et al, 2011](https://pubmed.ncbi.nlm.nih.gov/21186362/)) and characterize distribution of cluster sizes, molecular composition, and bonds across molecular clusters and individual molecules of different types. 
 
 Please note that NFsim is a non-spatial simulator, so it does not account for excluded volume and non-physical crosslinking when generating molecular complexes.
 
+## Graphical Summary
+
+<img src="/images/workflow.png">
+A model needs to be defined in the BioNetGen Language (BNGL). In this example, a tetravalent molecular pair (A4 and B4) is shown where any of the a-sites can bind to any of the b-sites. Once we define the model, we run multiple stochastic runs using NFsim. Molecular clusters (networks) would form in a stochastic way across these runs. We assemble these clusters and analyze average properties like cluster size, composition, binding saturation etc.  
+
+
+## Detailed Workflow
+
 ## Input: rule-based model specification in BioNetGen Language (BNGL) format
 
-Such systems require a special kind of modeling technique called Rule based modeling (RBM) ([Blinov et al., 2004](https://academic.oup.com/bioinformatics/article/20/17/3289/186821)). In this approach, a molecule is modelled as an object with multiple sites.  
+Systems with combinatorial complexity require a special kind of modeling technique called Rule based modeling (RBM) ([Blinov et al., 2004](https://academic.oup.com/bioinformatics/article/20/17/3289/186821)). In this approach, a molecule is modelled as an object with multiple sites.  
 
 <table>
   <tr>
