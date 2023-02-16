@@ -42,7 +42,7 @@ git clone https://github.com/achattaraj/MolClustPy/MolClustPy.git
 ### Option 3: Pip Install
 
 ```python
-pip install molclustpy
+pip install MolClustPy
 ```
  
  After download/install, navigate to the directory/folder where MolClustPy is installed and follow steps at [Start Guide](https://molclustpy.github.io/quickstartJupyter)
