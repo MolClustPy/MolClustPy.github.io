@@ -14,7 +14,7 @@ permalink: quickstartpip
 Open terminal and type:
 
 ```python
-pip install molclustpy
+pip install MolClustPy
 ```
 
 ### Download .py File
