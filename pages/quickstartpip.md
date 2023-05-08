@@ -14,7 +14,7 @@ permalink: quickstartpip
 Open terminal and type:
 
 ```python
-pip install MolClustPy
+pip install molclustpy
 ```
 
 ### Download .py File
@@ -43,7 +43,7 @@ For greater detail, visit the [How to Use](usage.md) page.
 Import package and set bngl file path
 
 ```python
-from MolClustPy import *
+from molclustpy import *
 
 # bngl file (BioNetGen model) 
 bng_file = 'place the path to your local .bngl file here'
@@ -171,13 +171,13 @@ If you need to find the location of the package
 - open python and type
 
 ```python
-import MolClustPy
-print(MolClustPy.__file__)
+import molclustpy
+print(molclustpy.__file__)
 ```
 This will output a path to the package that will look something like this
 
 ```python
-/usr/local/lib/python3.10/site-packages/MolClustPy/__init__.py
+/usr/local/lib/python3.10/site-packages/molclustpy/__init__.py
 ```
 
 ### Summary
