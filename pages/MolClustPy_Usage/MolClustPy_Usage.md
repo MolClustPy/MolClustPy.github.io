@@ -2,7 +2,7 @@
 
 How to install
 
-    pip install MolClustPy
+    pip install molclustpy
 
 In case you get the following error while using the package 
 
@@ -13,13 +13,13 @@ simply do pip uninstall bionetgen, and then pip install bionetgen
 
 ### Import Package
 ```python
-from MolClustPy import * 
+from molclustpy import * 
 ```
 
 ### Assign BNGL File
 ```python
 # Location of bngl file in your local machine
-bng_file = '/Users/indynalagandla/Downloads/nfsimPy_11Nov/test_dataset/single_concentration_file/neph_nck_nwasp_10_30_15uM.bngl'
+bng_file = '/Users/name/Downloads/nfsimPy/test_dataset/single_concentration_file/neph_nck_nwasp_10_30_15uM.bngl'
 ```
 
 ### Initialization of the Simulation Object
