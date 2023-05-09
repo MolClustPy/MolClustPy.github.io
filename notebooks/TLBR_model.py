@@ -1,4 +1,4 @@
-from MolClustPy import * 
+from molclustpy import * 
 
 bng_file = '.../mypath/.../TLBR_model.bngl'
 
