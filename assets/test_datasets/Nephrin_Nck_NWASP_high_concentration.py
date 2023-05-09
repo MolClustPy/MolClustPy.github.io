@@ -1,4 +1,4 @@
-from MolClustPy import *
+from molclustpy import *
 
 # bngl file (BioNetGen model) 
 bng_file = './test_dataset/Nephrin_Nck_NWASP_high_concentration.bngl'
