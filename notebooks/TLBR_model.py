@@ -1,6 +1,6 @@
 from molclustpy import * 
 
-bng_file = '.../mypath/.../TLBR_model.bngl'
+bng_file = 'TLBR_model.bngl'
 
 # Initialization of the Simulation Object
 simObj = BNG_multiTrials(bng_file, t_end=400.0, steps=40, numRuns=20)
