@@ -19,32 +19,23 @@ jupyter --version
 In case Jupyter is missing and you prefer to use it (recommended for beginners), download it from [https://jupyter.org/install](https://jupyter.org/install).
 
 ## Required Packages
-
-You will need to install the [pyBioNetGen](https://pybionetgen.readthedocs.io/en/latest/) package:
-```python
-pip install bionetgen
-```
-
+Apart from the standard Python libraries, required third-party packages: [bionetgen](https://pybionetgen.readthedocs.io/en/latest/), numpy, pandas and matplotlib   
 ## Install MolClustPy 
-
-### Option 1: Source folder: 
-
-Download the zip file by clicking on [MolClustPy.zip](/downloads/MolClustPy.zip), unzip.
-
-
-### Option 2: Github
-
-Git users may [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository](https://github.com/achattaraj/MolClustPy) using 
-```python
-git clone https://github.com/achattaraj/MolClustPy/MolClustPy.git
-```
-
-### Option 3: Pip Install
 
 ```python
 pip install molclustpy
 ```
+Installation of molclustpy will check for the third-party libraries and install them in case your machine does not have them.  
+
+
+### Optional Github Clone for source code
+
+Git users may [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [repository](https://github.com/achattaraj/MolClustPy) using 
+```python
+git clone https://github.com/achattaraj/MolClustPy.git
+```
+
  
- After download/install, navigate to the directory/folder where MolClustPy is installed and follow steps at [Start Guide](https://molclustpy.github.io/quickstartJupyter)
+ After download/install, and follow steps at [Start Guide](https://molclustpy.github.io/quickstartJupyter)
  
 
