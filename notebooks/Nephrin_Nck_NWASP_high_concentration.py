@@ -1,7 +1,7 @@
 from molclustpy import * 
 
 # bngl file (BioNetGen model) 
-bng_file = '.../mypath/.../Nephrin_Nck_NWASP_high_concentration.bngl'
+bng_file = 'Nephrin_Nck_NWASP_high_concentration.bngl'
 
 # Initialization of the Simulation Object
 simObj = BNG_multiTrials(bng_file, t_end=0.02, steps=20, numRuns=20)
