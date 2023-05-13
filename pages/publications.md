@@ -4,26 +4,51 @@ layout: default
 permalink: publications
 ---
 
-## Biological studies where the package was applied
+### Biological studies where the package was applied
 
 
-**Analysis of Nephrin-Nck-NWasp clustering.** 
+**Analysis of multivalent biomolecular clustering, similar to Nephrin-Nck-NWASP** 
 
-Chattaraj, A., Blinov, M. L., & Loew, L. M. (2021). The solubility product extends the buffering concept to heterotypic biomolecular condensates. Elife, 10, e67176.  
-doi: [10.7554/elife.67176]([https://doi.org/10.7554/elife.67176]). PMID: [34236318]([https://pubmed.ncbi.nlm.nih.gov/34236318/]). [Notebook example](DEMO_neph_nck_nwasp.md). 
+* Chattaraj, A., M.L. Blinov, and L.M. Loew, The solubility product extends the buffering concept to heterotypic biomolecular condensates. eLife, 2021. 10: p. e67176. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/34236318/)
 
-## Theoretical background
-  
-Faeder, J. R., Blinov, M. L., & Hlavacek, W. S. (2009). Rule-based modeling of biochemical systems with BioNetGen. In Systems biology (pp. 113-167). Humana Press. doi: [10.1007/978-1-59745-525-1_5]([https://doi.org/10.1007/978-1-59745-525-1_5]). PMID: [19399430]([https://pubmed.ncbi.nlm.nih.gov/19399430/]).
-  
-Mayer, B. J., Blinov, M. L., & Loew, L. M. (2009). Molecular machines or pleiomorphic ensembles: signaling complexes revisited. Journal of biology, 8(9), 1-8. doi: [10.1186/jbiol185]([https://doi.org/10.1186/jbiol185]). PMID: [19835637]([https://pubmed.ncbi.nlm.nih.gov/19835637/]). 
+* Chattaraj, A. and L.M. Loew, The maximum solubility product marks the threshold for condensation of multivalent biomolecules. Biophysical Journal, 2023. 122(9): p. 1678-1690. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/36987392/)
 
-Moraru, I. I., Schaff, J. C., Slepchenko, B. M., Blinov, M. L., Morgan, F., Lakshminarayana, A., ... & Loew, L. M. (2008). Virtual Cell modelling and simulation software environment. IET systems biology, 2(5), 352-362. doi: [10.1049/iet-syb:20080102]([https://doi.org/10.1049/iet-syb:20080102]). PMID: [19045830]([https://pubmed.ncbi.nlm.nih.gov/19045830/]). 
+### Theoretical background
 
-Schaff, J. C., Vasilescu, D., Moraru, I. I., Loew, L. M., & Blinov, M. L. (2016). Rule-based modeling with Virtual Cell. Bioinformatics, 32(18), 2880-2882.
-doi: [10.1093/bioinformatics/btw353]([https://doi.org/10.1093/bioinformatics/btw353]). PMID: [27497444]([https://pubmed.ncbi.nlm.nih.gov/27497444/]).
+#### Rule-based modeling and BioNetGen
 
-Sneddon, M. W., Faeder, J. R., & Emonet, T. (2011). Efficient modeling, simulation and coarse-graining of biological complexity with NFsim. Nature methods, 8(2), 177-183. doi: [10.1038/nmeth.1546]([https://doi.org/10.1038/nmeth.1546]). PMID: [21186362]([https://pubmed.ncbi.nlm.nih.gov/21186362/]).
+* Faeder, J. R., Blinov, M. L., & Hlavacek, W. S. (2009). Rule-based modeling of biochemical systems with BioNetGen. In Systems biology (pp. 113-167). Humana Press. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/19399430/)
+
+* Harris, L.A., et al., BioNetGen 2.2: advances in rule-based modeling. Bioinformatics, 2016. 32(21): p. 3366-3368. [PubMed Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5079481/)
+
+* Yang, J., et al., Kinetic Monte Carlo method for rule-based modeling of biochemical networks. Physical Review E, 2008. 78(3): p. 031910. [PubMed Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2652652/)
+
+* Sneddon, M.W., J.R. Faeder, and T. Emonet, Efficient modeling, simulation and coarse-graining of biological complexity with NFsim. Nat Methods, 2011. 8(2): p. 177-83. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/21186362/)
+
+#### Rule-based modeling with Virtual Cell
+
+* Schaff, J. C., Vasilescu, D., Moraru, I. I., Loew, L. M., & Blinov, M. L. (2016). Rule-based modeling with Virtual Cell. Bioinformatics, 32(18), 2880-2882. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/27497444/)
+
+* Blinov, M.L., et al., Compartmental and Spatial Rule-Based Modeling with Virtual Cell. Biophys J, 2017. 113(7): p. 1365-1372.[PubMed Link](https://pubmed.ncbi.nlm.nih.gov/28978431/)
+
+* Moraru, I. I., Schaff, J. C., Slepchenko, B. M., Blinov, M. L., Morgan, F., Lakshminarayana, A., ... & Loew, L. M. (2008). Virtual Cell modelling and simulation software environment. IET systems biology, 2(5), 352-362. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/19045830/)
+
+
+#### Clustering of multivalent proteins 
+
+* Mayer, B. J., Blinov, M. L., & Loew, L. M. (2009). Molecular machines or pleiomorphic ensembles: signaling complexes revisited. Journal of biology, 8(9), 1-8. 
+
+* Suderman, R. and E.J. Deeds, Machines vs. Ensembles: Effective MAPK Signaling through Heterogeneous Sets of Protein Complexes. PLoS Comput Biol, 2013. 9(10): p. e1003278. 
+
+* Falkenberg, C.V., M.L. Blinov, and L.M. Loew, Pleomorphic ensembles: formation of large clusters composed of weakly interacting multivalent molecules. Biophysical journal, 2013. 105(11): p. 2451-2460.
+
+* Falkenberg, C.V., J.H. Carson, and M.L. Blinov, Multivalent Molecules as Modulators of RNA Granule Size and Composition. Biophys J, 2017. 113(2): p. 235-245.
+
+* Goldman, J., S. Andrews, and D. Bray, Size and composition of membrane protein clusters predicted by Monte Carlo analysis. Eur Biophys J, 2004. 33(6): p. 506-12.
+
+* Nag, A., et al., Modeling and Simulation of Aggregation of Membrane Protein LAT with Molecular Variability in the Number of Binding Sites for Cytosolic Grb2-SOS1-Grb2. PLOS ONE, 2012. 7(3): p. e28758.
+
+
   
 
 
