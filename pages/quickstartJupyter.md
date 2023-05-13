@@ -30,6 +30,8 @@ jupyter notebook &
 
 * Open the notebook with "File -> Open -> Tutorial_Nephrin_Nck_NWASP.ipynb"
 
+* This notebook [Tutorial_Nephrin_Nck_NWASP.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb) provides step by step instructions on how to utilize different parts of the package.
+
 * After clicking on the Run button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on Run to perform the next actions. You can also do "Cell -> Run All" to execute all the blocks at one go. 
 
 * Change the simulation parameters and visualize the results
