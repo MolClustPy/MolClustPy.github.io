@@ -1,7 +1,7 @@
 from molclustpy import * 
 
 # bngl file (BioNetGen model) 
-bng_file = '.../mypath/.../EGFR_model.bngl'
+bng_file = 'EGFR_model.bngl'
 
 # run multiple trials
 simObj = BNG_multiTrials(bng_file, t_end=20, steps=20, numRuns=20)
