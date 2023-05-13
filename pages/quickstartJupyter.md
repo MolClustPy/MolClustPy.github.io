@@ -8,6 +8,13 @@ permalink: quickstartJupyter
 
 Non-experts in Python are recommended to use the [Jupyter Notebook](https://jupyter.org/). 
 
+* Download and install [anaconda distribution](https://www.anaconda.com/products/distribution) 
+* Open anaconda promt and type
+ ```python
+pip install molclustpy
+```
+* Create a working directory - /user/Desktop/molclustpy
+* Download the Tutorial_Nephrin_Nck_NWASP.bngl file and place it inside your working directory 
 To launch it from Terminal, navigate to the installation directory/folder and type
 
 ```python
