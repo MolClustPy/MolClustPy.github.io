@@ -14,48 +14,12 @@ Non-experts in Python are recommended to use the [Jupyter Notebook](https://jupy
 pip install molclustpy
 ```
 * Create a working directory - /user/Desktop/molclustpy
-* Download the Tutorial_Nephrin_Nck_NWASP.bngl file and place it inside your working directory 
-To launch it from Terminal, navigate to the installation directory/folder and type
-
-```python
+* Download the [Tutorial_Nephrin_Nck_NWASP.bngl](../notebooks/Tutorial_Nephrin_Nck_NWASP.bngl) file and place it inside your working directory 
+* Download the notebook [Tutorial_Nephrin_Nck_NWASP.ipynb](../notebooks/Tutorial_Nephrin_Nck_NWASP.ipynb) and place it inside your working directory 
+* Navigate to the working directory and launch jupyter notebook by typing
+ ```python
 jupyter notebook &
 ```
-Note that the notebook interface will appear in a new browser window or tab that has address http://localhost:8888/tree.
-
-- You will see several files with extension <b>.ipynb</b>: [Tutorial_Nephrin_Nck_NWASP.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb), [EGFR_model.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/EGFR_model.ipynb) and [TLBR_model.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/TLBR_model.ipynb). Each of them corresponds to the description of cluster formation given in [BioNetGen](http://bionetgen.org) files located in <tt>test_datasets</tt> folder within MolClustPy directory. These files have the same name with extension <b>.bngl</b>. 
-
-- The most documented model is [Tutorial_Nephrin_Nck_NWASP.ipynb](https://github.com/achattaraj/MolClustPy/blob/master/Tutorial_Nephrin_Nck_NWASP.ipynb) which provides a step-by-step guide to modifying inputs and analyzing outputs of cluster formation. 
-
-- Here we give some general remarks on how to run models with Jupyter notebook. Put your mouse into the first cell. e.g. where you see <font color = blue>In [1] :</font>
-
-```python
-from NFsim_data_analyzer import *
-from DataViz_NFsim import * 
-from MultiRun_BNG import * 
-```
-- After clicking on the <b>Run</b> button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on <b>Run</b> to operform the next actions.
-
-- You may get an error .... due to version control issues of pip bionetgen install. If it is the case, then stop jupyter notebook, uninstall and install bionetgen again, and launch new jupyter session.
-```python
-pip uninstall bionetgen
-pip install bionetgen
-jupyter notebook &
-```
-
-- After clicking one cell after another, you can obtain all results of the file.
-
-- The path to the input BNGL file is defined in the second cell <font color = blue>In [2] :</font>. One can open this file in the editor, vary some numbers and see how the results change.
-
-```python
-    
-    # bngl file (BioNetGen model) 
-    bng_file = './test_dataset/neph_nck_nwasp_10_30_15uM.bngl'
-```
-
-## Summary 
-- Download and install [anaconda distribution](https://www.anaconda.com/products/distribution) 
-- Open Anaconda Prompt and type "pip install bionetgen"
-- Download or clone MolClustPy [option 1 or option 2](https://molclustpy.github.io/installation)
-- Navigate to the MolClustPy directory
-- Launch Jupyter notebook and open "Tutotial_Nephrin_Nck_NWASP.ipynb"
-- Play with the simulation parameters to run simulations and visualize the results 
+* Open the notebook with "File -> Open -> Tutorial_Nephrin_Nck_NWASP.ipynb"
+* After clicking on the Run button (the top of the browser window) the content of the cell will be executed, and you can click on the next cell and again click on Run to perform the next actions. You can also do "Cell -> Run All" to execute all the blocks at one go. 
+* Change the simulation parameters and visualize the results
