@@ -25,6 +25,8 @@ permalink: publications
 
 * Sneddon, M.W., J.R. Faeder, and T. Emonet, Efficient modeling, simulation and coarse-graining of biological complexity with NFsim. Nat Methods, 2011. 8(2): p. 177-83. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/21186362/)
 
+* Andrews, S.S., Rule-Based Modeling Using Wildcards in the Smoldyn Simulator. Methods Mol Biol, 2019. 1945: p. 179-202. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/30945247/)
+
 #### Rule-based modeling with Virtual Cell
 
 * Schaff, J. C., Vasilescu, D., Moraru, I. I., Loew, L. M., & Blinov, M. L. (2016). Rule-based modeling with Virtual Cell. Bioinformatics, 32(18), 2880-2882. [PubMed Link](https://pubmed.ncbi.nlm.nih.gov/27497444/)
@@ -46,7 +48,17 @@ permalink: publications
 
 * Goldman, J., S. Andrews, and D. Bray, Size and composition of membrane protein clusters predicted by Monte Carlo analysis. Eur Biophys J, 2004. 33(6): p. 506-12.
 
-* Nag, A., et al., Modeling and Simulation of Aggregation of Membrane Protein LAT with Molecular Variability in the Number of Binding Sites for Cytosolic Grb2-SOS1-Grb2. PLOS ONE, 2012. 7(3): p. e28758.
+* Nag, A., et al., Modeling and Simulation of Aggregation of Membrane Protein LAT with Molecular Variability in the Number of Binding Sites for Cytosolic Grb2-SOS1-Grb2. PLOS ONE, 2012. 7(3): p. e28758
+
+* Hsieh, M.Y., et al., Spatio-temporal modeling of signaling protein recruitment to EGFR. BMC Syst Biol, 2010. 4: p. 57.
+
+* Nag, A., et al., Aggregation of membrane proteins by cytosolic cross-linkers: theory and simulation of the LAT-Grb2-SOS1 system. Biophys J, 2009. 96(7): p. 2604-23.
+
+* Nag, A., et al., A detailed mathematical model predicts that serial engagement of IgE-Fc epsilon RI complexes can enhance Syk activation in mast cells. J Immunol, 2010. 185(6): p. 3268-76.
+
+* Marquez-Lago, T.T. and S. Steinberg, Stochastic model of ERK-mediated progesterone receptor translocation, clustering and transcriptional activity. Sci Rep, 2022. 12(1): p. 11791.
+
+* Wollman, A.J.M., et al., Critical roles for EGFR and EGFR-HER2 clusters in EGF binding of SW620 human carcinoma cells. J R Soc Interface, 2022. 19(190): p. 20220088.
 
 
   
