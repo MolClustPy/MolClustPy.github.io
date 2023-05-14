@@ -42,6 +42,8 @@ python3 EGFR_model.py
 
 * The script should sequentially import the package, run multiple stochastic trials, analyze and visualize the data
 
+* **Note**: when you run python from the terminal, the figures will appear one after the other, that is, the second figure is displayed only after you close the first figure and so on. If you run python from an IDE like [Spyder](https://www.spyder-ide.org/), all the figures are sequentially displayed, just like the jupyter notebook. 
+
 * Change the simulation parameters and visualize the results
 
 
