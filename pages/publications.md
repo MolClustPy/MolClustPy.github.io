@@ -3,6 +3,10 @@ title: Publications
 layout: default
 permalink: publications
 ---
+### Citation ###
+If you find MolClustPy useful, please cite 
+* Chattaraj, A., I. Nalagandla, L. M. Loew and M. L. Blinov, MolClustPy: A Python Package to Characterize Multivalent Biomolecular Clusters. Bioinformatics, 2023: p. btad385. [Publication Link](https://academic.oup.com/bioinformatics/article/39/6/btad385/7199581)
+
 
 ### Biological studies where the package was applied
 
