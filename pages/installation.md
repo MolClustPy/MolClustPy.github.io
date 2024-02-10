@@ -9,12 +9,14 @@ permalink: installation
 ### General Prerequisites
   - Python 2.7 or 3.1 (or higher) 
   - pip or pip3
+  - Perl
 
-The best way to install Python is to download [Anaconda distribution](https://www.anaconda.com/products/distribution) available for all operation systems. It has [Jupyter notebook](https://jupyter.org/) pre-installed that has a convenient way to run molclustpy. Anaconda install also should install pip. To check your installation, type in the terminal (command prompt on Windows):
+The best way to install Python is to download [Anaconda distribution](https://www.anaconda.com/products/distribution) available for all operation systems. It has [Jupyter notebook](https://jupyter.org/) pre-installed that has a convenient way to run molclustpy. Anaconda install also should install pip. Perl comes preinstalled on Mac, but needs to be installed on Windows (https://strawberryperl.com/). To check your installation, type in the terminal (command prompt on Windows):
 ```python
 python -i
 pip -V
-jupyter --version 
+jupyter --version
+perl -v
 ```
 In case Jupyter is missing and you prefer to use it (recommended for beginners), download it from [https://jupyter.org/install](https://jupyter.org/install).
 
